@@ -1,0 +1,19 @@
+Question 3: (2 marks)
+> In this question you are asked to complete some methods in the Graph.java file.
+> The class Graph implements a graph. Complete the following methods:
+> > - void fl() — Perform depth-first traversal (to the file f1 .txt) from the vertex izo (the vertex A) but display only 4 vertices, from the 2nd vertex to the 5th vertex. Hint: copy
+> depth(...) to depth2(...) and modify the latter one. Content of the output file f1.txt must be:
+> ABE HI CDG F
+> BEHI
+> > - void f2() — Apply the Dijkstra's shortest path algorithm to find (1) the shortest path from vertex 1 (B) to vertex 5 (F), then (2) from vertex O (A) to vertex 6 (G). Write 3
+> lines to the file f2.txt: line 1 contains the vertices of the shortest path in (1), line 2 contains the vertices of the shortest path in (2), line 3 contains the last 3 vertices
+> selected into the set S with their labels in (2). (Note that in the weighted matrix, the value 99 is considered as infinity). Output in the file f2.txt must be the following:
+> B
+> A
+> D
+> BC
+> — 19
+> D
+> F
+> E
+> F-24 G-29

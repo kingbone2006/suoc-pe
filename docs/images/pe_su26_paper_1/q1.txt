@@ -1,0 +1,8 @@
+Question 1 — fl() (2.5 marks): Count Books in the Library.
+> > - File: BookList.java
+> > - Methods to Complete: count()
+> > - Task: Walk through the singly linked list and return the total number of books. Return O if the list is empty.
+> Expected example output:
+> Current Books :
+> {Bei , J ava_Basics, Data_structures, Database_systems , 2017}
+> Total books: 4

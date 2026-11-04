@@ -1,0 +1,23 @@
+Question 2: (4 marks)
+> In this question, you need to complete some methods in the BSTree.java file.
+> The class Canary with 3 data members: place, song and wing is provided, and you do not need to edit it. The BSTree class is a binary search tree of Canary objects. The
+> variable wing is the key of the tree, thus it must be unique. Complete the following methods:
+> > - void insert(String xPlace, int xSong, int xWing) - check if xPlace.charAt(0) 'A' then do nothing, otherwise insert new Canary object with place=xPlace,
+> song=xSong, wing=xWing to the tree (song and wing can get arbitrary, even negative values).
+> > - void fl() — Do not edit this method. Your task is to complete only the insert(...) method above. Output in the file f1.txt must be the following:
+> (E, 2.5) (F, -6.7)
+> (Y.6,-7) (C,4.3) (E. 2,5) (D,8.6) (F, -6.7)
+> > - VOId
+> t2() — Perform post-order traversal trom the root but dlsplay to tile t
+> txt nodes With song < 7 on y. Hint: Copy the tuncüon postorder(...) to tunctlon
+> postOrder2(...) and modify it. Output in the file f2.txt must be the following:
+> (F, 2, -1) (K, -1,5) (G, 7,3)
+> (F, 2, -1) (K, -1,5) (L (J, 3.9)
+> > - void f3() — Find the node having the largest wing value in the tree. If this node has a father p, then delete node p by copying. Output in the file f3.txt must be the
+> following:
+> (F, 2, -1) (G, 7.3) (K, -1,5)
+> (F, 2, -1) (K, -1,5)
+> > - void f4() — Find the 4th node having left-child when performing the in-order traversal of the tree from the root. Rotate this node to right. Output in the file f4.txt
+> must be the following:
+> (F, 2, -1) (G, 7.3) (J, 3,9) (K, -1,5) (M, 4,6)
+> (CS, 2) (F. 2, -1) (G, 7.3) (H,1e.8) (J. 3,9) (K, -1,5) (M,4.6) (L.5,1e)

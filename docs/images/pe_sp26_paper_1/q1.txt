@@ -1,0 +1,71 @@
+﻿CSD201 PE INSTRUCTIONS
+> Complete the PE by following the steps below:
+> 1. Create a folder to save the given projects, e.g. CSD_given (1), then download the given materials into (1).
+> 2. Complete the requirements of the test.
+> 3. Before submission:
+> 1. Clean and Build Project (Shift+F11),
+> 2. Then rename the folder dist to run. (If the folder run already exists, delete it before renaming).
+> 4. Submission:
+> 1. To submit the project Q1, at first you must select the Question No: 1
+> 2. Browse and select the project folder (e.g. Q1, or QIA, or Q2, ...)
+> 3. Then click the Submit button.
+> 5. Do not use accented Vietnamese when writing comments in programs.
+> 6. Your task is to complete the method bodies only. Do not change method signatures or add new import statements.
+> 7. Software tools must be used: NetBeans IDE 13 and Java JDK 8.
+> If at least one of the above requirements is not followed, the exam will get ZERO.
+> . Notes:
+> 0 The input and expected output below are only used to test your codes.
+> o The input and expected output in the real testcases (for marking) are different with the examples below.
+> o Do not hardcode with the given expected results.
+> Troubleshooting
+> If the given project (e.g. Q1) fails to run, run "Clean and Build Project" (Shift+F11). If the error persists, try renaming or copying the project to another one, e.g. from Q1 to
+> QIX or QIY.
+> Questions: (10 marks)
+> Scenario
+> You will complete a Java program that manages a fruit import-export store. The system uses a Circularly Linked List (CLL) to manage today's shipment list and a Binary
+> Search Tree (BST) to store all fruit products in the warehouse, sorted by fruitld.
+> Class Structure
+> > - Fruit: Contains information about a fruit: fruitld (String), name (String), quantity (int) and price (double)
+> > - ShipmentCLL: A Circular Linked List structure, used to store the fruits that are being shipped today.
+> > - FruitBST: A Binary Search Tree structure, storing all fruits in warehouse sorted by fruitld.
+> Carefully read the provided code segments to fully understand the relationships between the classes and the functions within each class. The specific task of the test is to
+> complete the following requirements:
+> Cäu 1: fl() — 2.5 marks: Count Fruits in Shipment
+> > - File: ShipmentCLLjava
+> > - Methods to Complete:
+> countFruits()
+> > - Task: Walk through the circular linked list and return the number of fruits currently in today's shipment list. If the shipment list is empty, return O.
+> Expected example output:
+> Current Shipment:
+> (FE , Apple, 2øe.1.2) ( FL Banana, 8) (FØ4,Mango, 2.5) (FU , Orange, 18e,1.5) e) (F99, DragonFruit, 5ø,4.5)
+> Counted fruits: 6
+> Cäu 2: f2() — 2.5 marks: Remove a Fruit from Shipment by ID
+> > - File: ShipmentCLL.java
+> > - Method to Complete:
+> removeById(String id)
+> > - Task: Remove the node whose fruitld equals the given id from the Circular Linked List. Handle all possible cases.
+> Expected example output:
+> Current Shipment:
+> (FU , Apple, 2øe,1.2) (FØ2, Banana, e. 8) ( Fei, Grape, 12ø,3.e) (F99, DragonFruit, 5ø,4.5)
+> Shipment after removing FØ2:
+> 2øe.1.2) Mango, lee, 2.5) (FBI. Grape, 12e,3. e) (F99, se,4.5)
+> Cåu 3: f3() — 2.5 marks: Insert Fruit into Warehouse (Binary Search Tree)
+> > - File: FruitBST.java
+> > - Method to Complete: insert(Fr-uit fruit)
+> > - Task: Implement the logic to insert a new Fruit object into the Binary Search Tree. The tree is ordered alphabetically by the fruitld.
+> 0 Insert the fruit into the correct position according to BST rules.
+> 0 If the fruitld already exists in the tree, that fruit is ignored.
+> Expected example output:
+> Current Fruits (Alphabetically Ordered by ID):
+> (FBI, crape, e) Banana , Ise, e. 8) (F03 lee, 2.5) (Fess orange, 1.5) (F99,DragonFruit, 50, 4.5)
+> Cåu 4: f4() — 2.5 marks: Count Fruits in ID Range
+> > - File: FruitBST.java
+> > - Method to Complete:
+> countlnRange(String minld, String maxld)
+> > - Task: Count the fruits in the BST whose id lies between minld and maxld (inclusive).
+> o If no fruit satisfies the condition, return O
+> Expected example output:
+> Current Fruits:
+> (FBI, Grape, e) ( F02, Banana, 8) (FB3 , Apple, 2ee.1.2) (FØ4,Mango, lee, 2.5) 1.5) (F99 , DragonFruit, 50,4.5)
+> Counting fruits with fruitld in range [FØ3,Fe8] :
+> Result: 3

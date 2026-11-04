@@ -1,0 +1,24 @@
+Question 2: (4 marks)
+> In this question you are asked to complete some methods in the BSTree.java file.
+> The class Bike, having 3 data members: owner, price and color, is provided and you do not need to modify it. The BSTree class is a binary search tree of Bike objects. The
+> variable price is the key of the tree, thus it must be unique. Complete the following methods:
+> > - void insert(String xOwner, int xPrice, int xColor) - if xOwner.charAt(0) == 'A' then do nothing, otherwise insert a new Bike object with owner=xowner, price=xPrice,
+> color=xCoIor into the tree (price and color can be arbitrary, even negative values).
+> > - void fl() — Do not edit this method; you only need to complete the insert(...) method above. Output in the file f1.txt must be the following:
+> (E, 2,5) (F, -6.7)
+> (F. -6, 7) (E,2.5) (B.9,4) (D,8.6)
+> > - VOId
+> t2() — Perform In-order traversal trom the root but write to the tile t
+> txt only the nodes Wlth price<7. Hint: copy the tunctlon Ino
+> er Into a new tunctlon
+> inOrder2(...) and modify the latter one. Output in the file f2.txt must be the following:
+> (D, 7,2)
+> (E, 2,8)
+> (C, 3,6)
+> > - void f3() — Assume the tree is not empty. Find the node p having largest price in the tree (i.e. p is the right-most node), then delete p. Output in the file f3.txt must be
+> the following:
+> (F, 1,3)
+> > - void f4() — Assume the tree is not empty. Find the node p having largest price in the tree (i.e. p is the right-most node). If p has father f then rotate f to left about p.
+> Output in the file f4.txt must be the following:
+> (C.5,2) (D, 2.1) (F, 1,3) (H, 3,4)
+> (D, 2, 1) (H, 3,4)

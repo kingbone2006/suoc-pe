@@ -1,0 +1,77 @@
+Question 2: (4 marks)
+> In this question you should complete some methods in BSTree.java file.
+> + 100%
+> Ouesion 2: (4 marks)
+> In this question you should complete some methods in BSTree.java file.
+> The class Bat with 3 data members: owner, price and color is given and you do not need to edit
+> it. The BSTree class is a binary search tree of Bat objects. The variable color is the key of the
+> tree, thus it must be unique. The following methods should be completed:
+> void insert(String xOwner, int XPrice, int xColor) - check if xOwner.charAt(0) 'A'
+> then do nothing, otherwise insert new Bat with price—xPrice,
+> color=xCoIor to the tree (price and color can get arbitrary, even negative values).
+> void fl() — Do not edit this method, Your task is to complete the insert(. method above
+> only. Output in the file f1.txt must be the following:
+> void f2() — Perform in-order traversal from the root but display to file f2.txt nodes with
+> price<7 only. Hint: Copy the function inOrder(...) to function inOrder2(...) and modify
+> it. Output in the file 12.txt must be the following:
+> (Tt6,3)
+> (1,594)
+> void f3() — Suppose the tree is not empty. Find the node p having largest price in the tree
+> (i.e. p is the right-most node), then delete p. Output in the file ß.txt must be the
+> following:
+> 1) (F, 1,3) (H,3,4)
+> 1) (F, 1,3) (IL3,4)
+> void f4() — Suppose the tree is not empty. Find the node p having largest price in the tree
+> (i.e. p is the right-most node). If p has father f then rotate fto left about p. Output in the
+> file f4.txt must be the following:
+> (D,2, l) (F, 1,3)
+> (F, 1,3)
+> > - void — Perform pre—order traversal and find the first node p having type<lO, then delete
+> p by copying. Output in the file ß.txt must be the following:
+> (C, 10,4) (E, 12,10)
+> (C, (E 12,10)
+> > - void f4() — Find the node p having type=5, then calculate number of nodes in the sub-tree
+> with root p. Suppose this number is k, then set p.info.price=k. Output in the file f4.txt must
+> be the following:
+> (C, 10,4) (E, 12,10) (G,6, 12)
+> (G,6, 12)
+> Ouesion 3: (2 marks)
+> In this question you should complete some methods in Graph.java file.
+> The class Graph is the implementation Of a graph. The following methods should be completed:
+> > - void n O Perform depth first traversal (to the file fl .txt) from the vertex i=2 (the vertex C)
+> but display first 6 vertices only. Hint: copy depth(___) to depth2(___) and modify the latter
+> one. Content of the output file f1.txt must be:
+> CHDAEFIGB
+> CH D AEF
+> > - void — Apply the Dijksfra's shortest path algorithm to find the shortest path from the
+> vertex O (A) to the vertex 6 (G). Write 2 lines to the file f2.txt: the line I contains vertices in
+> shortest path, the line 2 contains the last 3 vertices selected into the set S with their labels
+> (see Output format below). (Note that in the weighted matrix, the value 99 is considered as
+> infinity). Output in the file n.txt must be the following:
+> D-19 F-24 G-29
+> Question paper (build 07.05.20.19)
+> The class Bee with 3 data members: forest, rate and sound is given and you do not need to edit it. The
+> BSTree class is a binary search tree of Bee objects. The variable sound is key of the tree, thus it must
+> unique. The following methods should be completed;
+> > - void insert(String xForest, int xRate, int xSound) - check if xForest.charAt(0) 'A' then do
+> nothing, otherwise insert new Bee object with forest=xForest, rate=xRate, sound=xSound to the
+> tree (rate and sound can get arbitrary, even negative values).
+> > - void flo — DO not edit this method. Your task is to complete the method above only.
+> Output in the file f1.txt must be the following:
+> (B,9A)
+> > - void f2()— Perform pre-order traversal from the root but display to file f2.txt nodes with rate<6
+> only. Hint: Copy the function preOrder(...) to function preorder2(...) and modify it. Output in the
+> file f2.txt must be the following:
+> (H,$3) (Gß,7)
+> (F,4,5)
+> > - void the 4-th node when performingthe pre-order traversal Ofthe tree. Delete
+> the node p by copying. Output in the file f3.txt must be the following:
+> (E,6S) (GA,6)
+> (GA,6)
+> > - voidf4()— Suppose p is the 4-thnode when performing the pre-ordertraversal ofthetree. Check
+> if p has right son then rotate it to left its' right son. Output in the file f4.txt must be the
+> following:
+> (E,65) (F,1,3) (H,3,4)
+> + 100%
+> Question paper (build 07.05.20.19)
+> (E,6S)

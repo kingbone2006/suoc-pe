@@ -1,0 +1,18 @@
+Question 2: (4 marks)
+> In this question you need to complete several methods in the BSTree.java file.
+> A class Bike with 3 data members: brand, color and weight is given and does not need to be edited. The BSTree class is a binary search tree of Bike objects. The variable
+> weight is the key of the tree, thus it must be unique. The following methods should be completed:
+> > - void insert(String xBrand, int xColor, int xWeight) - check if xBrand.charAt(0) 'A' then do nothing, otherwise insert new Bike object with brand=xBrand,
+> color=xColor, weight=xWeight to the tree (color and weight can get arbitrary, even negative values).
+> (E, 2.5) (F, -6.7)
+> (E, 2,5) (F, -6.7)
+> > - void f2() — Perforrn post-order traversal from the root but display to file f2.txt nodes with color<7 only. Hint: Copy the function postOrder(...) to function
+> postOrder2(...) and modify it. The output in the file f2.txt must be:
+> (F, 2, -1) (D,6.1) (K. -1, 5) (1, 1.7) (L,5.1Ø) O, 3.9)
+> > - void f3() — Perform breadth-first traversal from the root and find the second node p having 2 children. If such node does not exist then do nothing, otherwise delete
+> the node q = p.right by copying. The output in the file f3.txt must be:
+> (F, 2, -1) (K, -1,5)
+> (E,9,4) (F, 2, -1) (G, 7.3) (1,1,7) (K, -1,5)
+> > - void f4() — Find the node p having maximum weight. Suppose f is the father of p. Check if f is not null then rotate f about p. The output in the file f4.txt must be:
+> (F, 2, -1) (G, 7.3) (K, -1,5)
+> (F, 2, -1) (G, 7.3) (K, -1,5)

@@ -1,0 +1,17 @@
+Question 3: (2 marks)
+> (F, 2, -1) (G, 7.3) (K, -1,5) (L
+> (F, 2, -1) (G, 7.3) (J, 3,9) (K, -1,5) (L.5,1e)
+> In this question, you must complete some methods in the Graph.java file.
+> The class Graph is an implementation of a graph. Complete the following methods:
+> > - void fl() — Perform breadth-first traversal (to the file f1 .txt) from the vertex (the vertex F) but display only 6 vertices with their degrees from the 2nd vertex to
+> the 7th vertex. Hint: copy breadth(...) to breadth2(...) and modify the latter one. The array int dego is already declared in the class Graph. You should calculate d[i] =
+> degree of the vertex i, and use the function fvisitDeg(...) to display a vertex with degree to file. Content of the output file f1.txt must be:
+> FCAHBDEIG
+> C(3) A(3) H(2) B(3) D(3) E(2)
+> > - void f2() — Apply Dijkstra's shortest path algorithm to find the shortest path from vertex O (A) to vertex 6 (G). Write 3 lines to the file f2.txt: line I contains the vertices
+> in the shortest path in which the 3rd and the 4th vertices having labels. Line 2 contains the first 6 vertices selected into the set S. Line 3 contains the shortest
+> distance. (Note that in the weighted matrix, the value 99 is considered as infinity. When the vertex v is selected to the set S, its label = shortest distance from the
+> starting vertex to it). The output in the file f2.txt must be the following:
+> A 1 C(5) E(8) D G
+> A ICE BD
+> 22

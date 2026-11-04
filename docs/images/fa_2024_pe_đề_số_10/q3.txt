@@ -1,0 +1,14 @@
+Question 3: (2 marks)
+> In this question, you need to complete some methods in the Graph.java file.
+> The class Graph is an implementation of a graph. Complete the following methods:
+> > - void fl() — Perform a depth-first traversal (to the file f1 .txt) starting from the vertex i=4 (the vertex E), but display only 6 vertices with their degrees, from the 2nd
+> vertex to the 7th vertex. Hint: copy depth(...) to depth2(...) and modify the latter one. The array int dego is already declared in the class Graph. You should calculate d[i]
+> = degree of the vertex i, and use the function fvisitDeg(...) to display a vertex with its degree to the file. The content of the output file f1.txt must be:
+> EBACFHIDG
+> B(3) A(3) C(3) F(l) H(2) 1(1)
+> > - void f2() — Apply Dijkstra's shortest path algorithm to find the shortest path from vertex O (A) to vertex 6 (G). Write 3 lines to the file f2.txt: line 1 contains the last 4
+> vertices selected into the set S, line 2 contains the labels of the vertices in line 1, line 3 contains the shortest distance and the 1st, 4th and last vertices in the shortest
+> path. (Note that in the weighted matrix, the value 99 is considered as infinity. When vertex v is selected into the set S, its label = the shortest distance from the
+> starting vertex to it). The output written to the file f2.txt must be as follows:
+> 12 12 17 22
+> 22 A E G

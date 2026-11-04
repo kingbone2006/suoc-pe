@@ -1,0 +1,61 @@
+﻿CSD201 PE INSTRUCTIONS
+> Read the following instructions carefully before you start coding.
+> Students may use ONLY:
+> > - Materials available on their own computer (including JDK, NetBeans, ...).
+> > - For distance learning: Google Meet, Hangout (for exam monitoring purposes).
+> Carry out the steps below to complete the PE:
+> 1. Create a folder to store the given projects, e.g., CSD_given (1), and download the given materials into it.
+> 2. Implement all the requirements of the test.
+> 3. Before submitting:
+> o Clean and Build Project (Shift+F11)
+> 0 Then rename the folder dist to run. (If the folder run already exists, delete it before renaming).
+> 4. Submission:
+> o To submit project Q1, first select the Question No: 1
+> 0 Browse to and select the project folder (e.g., Q1, or QIA, or Q2, ...)
+> o Then click the Submit button.
+> 5. Do not use accented Vietnamese when writing comments in your programs.
+> 6. Do not add new import statement(s) to the given files.
+> 7. Required software tools: NetBeans IDE 8.x and Java JDK 1.8. If at least one of the above requirements is not followed, the exam will get ZERO.
+> Notes:
+> > - The input and expected output below are provided only to test your code.
+> > - The input and expected output in the real test cases (for marking) are different from the examples below.
+> > - Do not hardcode to match the given expected results.
+> Questions: (10 marks)
+> The provided files contain statements for implementing a program that manages a Course Registration process. The structure of the main classes is as follows:
+> > - Class Student: holds information about a student, including:
+> id (student ID)
+> o name (student name)
+> 0 fee (boolean — true if student has paid fees, false if not)
+> > - Class SIINode: contains a Student object and a next pointer for linking.
+> > - Class BstNode: contains a Student object and left/right pointers for the BST structure.
+> > - Class SIIStudent: a singly linked list that manages students in insertion order.
+> > - Class BstStudent: a binary search tree (BST) that manages students, with id as the key.
+> > - Class CourseRegistration: the main class of the program, holding an SIIStudent (insertion-order list) and a BstStudent (BST by ID).
+> You should read the provided code segments carefully to fully understand the relationships between the classes and the functions inside each class.
+> fl(): (2.5 marks) — Load data
+> To fulfill requirement fl(), students need to:
+> 1. Implement the addStudent() function in the SIIStudent class to add students in insertion order
+> 2. Implement the insert() function in the BstStudent class to insert students into the BST by ID
+> The expected output used to test your code is shown below:
+> Insertion Order:
+> (3, T, true)
+> BST (Inorder) :
+> f2(): (2.5 marks) — Count students who have not paid fees
+> To fulfill requirement f2(), students need to:
+> > - Count the students in the BST who have not paid fees (fee false)
+> > - Implement the counting logic inside the BstStudent structure
+> The expected output used to test your code is:
+> f3(): (2.5 marks) — Search by ID
+> To fulfill requirement f3(), students need to:
+> > - Implement the searchByld() function inside the BstStudent structure
+> > - Search for a student in the BST by their ID and display the result
+> The expected output used to test your code is:
+> Found: (7, A, true)
+> Not found
+> (The test case looks up ID=7, which is found, and another ID that does not exist, which is not found)
+> f4(): (2.5 marks) — Print students who have paid fees in descending order by ID
+> To fulfill requirement f4(), students need to:
+> > - Implement the printPaidDesc() function inside the BstStudent structure
+> > - Print every student who has paid fees (fee true) in descending order by ID
+> The expected output used to test your code is:
+> (11,P.true) (3, T.true)

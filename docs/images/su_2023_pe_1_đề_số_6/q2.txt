@@ -1,0 +1,27 @@
+Question 2: (4 marks)
+> Class description
+> > - Each Bird object has attributes: owner (String), price (number) and color
+> (number). This class is defined in the project Q2, and will used for Question 2. You should
+> NOT care about the meaning of a Bird in the real-woru just focus on your
+> Code provided: Q1 java project about Binary Search Trees
+> Student tasks:
+> open and build the project, if there is no error then open file BSTre.java
+> Bird 's price as the key attribute When building a BST.
+> > - find the following methods, read the description and implement them accordingly
+> I. void insert (String Owner, int XPrice, int XColor)
+> 4. void f4()
+> > - Follow the Instructions to subnli t the poject Q1
+> Qyg!igg2: (4 marks)
+> Class description - Each Bird object has th.ræ attributes: owner (String), price (number) and color
+> (number). This class is defined in the project O2, and will used for Question 2. You should
+> NOT care about the meaning of a Bird in the just focus on your code.
+> Code provided: Q2 java project about Binary Search Trees
+> Student tasks:
+> open and build the project, if there is error then open file BSTræjava
+> Bird 's price as the key attribute When building a BST.
+> > - find the following meth(RIs, read the description and implement them accordingly
+> I. void inset (String Owner, int xprice. int xColor)
+> 2. voidü()
+> 3. voidf30
+> 4. void f4()
+> > - Follow the instructions to submlt the project Q2

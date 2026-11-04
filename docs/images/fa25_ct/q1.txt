@@ -1,0 +1,107 @@
+Question 1: (3 marks)
+> Write a program to build a BST (Binary Search Tree) by inserting N (1 s N s 100) integer values into the BST one by one. Note that the nodes have no duplicate values.
+> Your task is to reverse traverse the BST and list the nodes whose values are greater than or equal to V.
+> Here are 3 steps of the reverse traversing algorithm:
+> > - Step 1: Right-child traversing
+> > - Step 2: Process current node
+> > - Step 3: Left-child traversing
+> For example:
+> > - Create a BST tree by inserting into the tree N integer values as follows: 7, 9, 4, I, 12, 6, IO.
+> > - The value of V is 7.
+> > - The reverse traversing of the BST tree which node's value are greater than or equal to 7 is: 12, IO, 9, 7.
+> The input: is stored in the reverseTraversing_input.txt text file:
+> > - The first line contains a positive integer N (1 s N s 100) which is the number of integer values to insert into the BST.
+> > - The second line contains N integers that will be inserted into the BST one by one, each number separated by at least one space.
+> > - The third line contains a positive integer V. The value of V is always guaranteed to have results when traversing the tree.
+> The output: must be saved to the reverseTraversing_output.txt text file:
+> > - One line contains the list of numbers representing the reverse traversing of the BST whose node values are greater than or equal to V. Each number separated by one
+> comma.
+> Sample Input 1
+> 7
+> 794112610
+> 7
+> Sample Input 2
+> 10
+> Sample Output 1
+> Sample Output 2
+> 78 21 36 18 3091 7455 98 100
+> 90
+> Question z: (4 marks)
+> Write a program to build an undirected graph from a given edge list.
+> Your task is to find the shortest path from startVertex to endVertex.
+> The input: is stored in the dijkstra_input.txt text file:
+> > - The first line contains 4 positive integers N, M, s and e separated by one space:
+> o N (1 N 20) is the number of vertices of the undirected graph.
+> o M (N-1 M 190) is the number of edges of the undirected graph.
+> s (O s s N-1) is the start vertex.
+> 0 e (O e s N-1, s e) is the end vertex.
+> > - The next M lines, each containing 3 positive integers u, v and d separated by one space:
+> o u (O s u < N) the start vertex of the edge (u, v).
+> o v (O v < N, v u) the end vertex of the edge (u, v).
+> d (O s d 109) the value of the edge (u, v).
+> The output: must be saved to the dijkstra_output.txt text file:
+> > - The first line contains the distance of the shortest path.
+> > - The second line contains the list of vertices of the shortest path from s to e. Each vertex separated by one comma.
+> Sample Input 1
+> 81607
+> 015
+> 023
+> 0511
+> 125
+> 167
+> 1711
+> 2311
+> 241
+> 257
+> 3411
+> 3611
+> 451
+> 465
+> 477
+> 5742
+> 6742
+> Sample Input 2
+> 6714
+> 017
+> 025
+> 051
+> 232
+> 243
+> 347
+> 359
+> Sample Output 1
+> 11
+> Sample Output 2
+> 15
+> Question 3: (3 marks)
+> Write a program to build an undirected graph from a given edge list.
+> A happy vertex is a vertex with positive degree; that is, a vertex that is an endpoint of at least one edge.
+> Your task is to show all happy vertices of the given graph in ascending format.
+> The input: is stored in the happyVertices_input.txt text file:
+> > - The first line contains 2 positive integers N and M separated by one space:
+> 0 N (1 N 20) is the number of vertices of the undirected graph.
+> 0 M (N-1 s M 190) is the number of edges of the undirected graph.
+> > - The next M lines, each containing 2 positive integers u and v separated by one space:
+> 0 u (O u < N) the start vertex of the edge (u, v).
+> o v (O v < N, v u) the end vertex of the edge (u, v).
+> The output: must be saved to the happyVertices_output.txt text file:
+> > - One line contains the list of happy vertices of the undirected graph in ascending format, each number separated by one comma.
+> > - If the undirected graph doesn't have any happy vertex, the result file will contain the message "All of the vertices are isolated vertices".
+> Sample Input 1
+> 01
+> 02
+> 05
+> 17
+> 23
+> 24
+> 47
+> Sample Input 2
+> 67
+> 01
+> 02
+> 05
+> 23
+> 24
+> 34
+> Sample Output 1
+> Sample Output 2

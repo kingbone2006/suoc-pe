@@ -1,0 +1,18 @@
+Question 2: (5 marks)
+> In this question you should complete several methods in the BSTree.java file.
+> weight is the key of the BSTree, thus it must be unique. Complete the following methods:
+> > - void insert(String xPlace, int xWeight, int xColor) - The variable weight is the key of the BSTree, so it must be unique.
+> > - void fl() — Add statements in the method so that any node with xPlace.charAt(0) 'N' is not inserted to the tree. The output in file f1 .txt should be as
+> follows (line 1: Breadth first traversal, line 2: In-order traversal):
+> > - void f2() — Perform pre-order traversal for the left branch of the BST, but write to file f2.txt only the nodes with color!=4. Hint: Copy the function preOrder(...) to
+> function preOrder2(...) and modify it. Output in the file f2.txt must be the following (line 1: Breadth first traversal for whole tree, line 2: pre-order traversal for f2
+> requirement):
+> (P, 7,9) (H, 2,5) (L
+> > - void f3() — Perform a new traversal method to visit all nodes in the BST with the constraint: visit the nodes in the descending order of weight. Output in the file f3.txt
+> must be the following:
+> (R, 5,9) (L (Y, 1,6)
+> > - void f4() — Print out leaf nodes with color<7 of the tree. Output in the file f4.txt must be the following (line 1: pre-order traversal for whole tree, line 2: leaf nodes for
+> f4 (by pre-order traversal)):
+> (DS, -3) (G,7.4)
+> > - void f5() — How many internal nodes are there in the BST? Output in the file f5.txt must be the following (line 1: in-order traversal, line 2: the amount of internal
+> nodes):

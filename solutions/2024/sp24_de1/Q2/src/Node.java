@@ -1,0 +1,9 @@
+class Node {
+   Bird info;
+   Node left,right;
+   Node(){
+     }  
+   Node(Bird x) {
+    info=x;left=right=null;
+     }  
+   }

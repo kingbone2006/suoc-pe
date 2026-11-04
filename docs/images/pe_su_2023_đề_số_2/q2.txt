@@ -1,0 +1,53 @@
+Ouestion 2:
+> Questuu_2: (4 marks)
+> Write a program to build a binary scarvh tree by inserting N (I S N S integer values into the BST
+> one by one. Note that the nckies
+> Your task is to display the BFS traversing of the BST.
+> For example.
+> Ouestion 2:
+> Questigu_2: (4 marks)
+> Write a program to build a binary scanh tree by inserting N (I g N S integer values into thc BST
+> one by one. Note that the mules
+> Your task is to display the BFS traversing of the BST.
+> For example.
+> 3 0f3
+> Paper No: 2
+> Create a BSTtrce by adding into the tree N integer values as follows; 7, 9, 4, 9, I, 12, 6, 7, I, IO.
+> Thc BFS traversing OftheBST 9, 9, l,
+> cou -1
+> count—2
+> count-2
+> 6 count—I
+> 9 count—2
+> count—1
+> count—I to
+> Figure / The BST that created by 7, 9. I, 12, 6, I one hy one
+> The input; are stored in the text file:
+> Thc contains a integer N (l N which is thc number of values to
+> insert into the BST
+> > - Thc second containing N integers that will into BST onc by one, number
+> separated by at least one space
+> The output: the results need to be saved to the duplicwle_ourpuztrt text file:
+> The list of representing the BFS traversing Of the BST. Exh number separated by one
+> Sample Inpu/ I
+> 79491 12 67 1 10
+> Sample Ourpu/ I
+> cou -1
+> 1 count—2
+> count—2
+> 6 count—I
+> 9 count—2
+> count=1
+> count—I to
+> Figure BST that created hy 7, 9. I, 12. 6, I O one by one
+> The input; are stored in the text file;
+> Thc contains a positive integer N (l S N which is the number of integer values to
+> insert into the BST.
+> > - Thc second containing N integers that will inserted into thc BST by number
+> separated by at least one spaæ
+> The output: the results need to be saved to the duplicwte_ourpuztxt text file:
+> The list of representing the BFS traversing of the BST. Each number separated by one
+> Sample Inpu/ /
+> 79491 12 67 In
+> Sample Inpuj 2
+> 7B 21 36 1B 3C 91 74 55 9B IOC

@@ -1,0 +1,18 @@
+Question 1: (5 marks)
+> In this question you need to complete some methods in the MyList.java file.
+> The class (name not captured in images) with 3 data members (place, weight, color — inferred from the output-tuple format shared with Q2's Bird class) is given and you
+> do not need to edit it. The MyList class is a singly linked list of those objects. The following methods should be completed:
+> > - void addLast(„.) — append a node to the end (tail) of the list (exact signature not captured in images)
+> > - void fl() — Do not edit this method. Your task is to complete the addLast(...) method above only. The expected output in the file f1.txt should be the following:
+> > - void f2() — Assuming the list contains at least three nodes, delete the third node. The expected output in the file f2.txt should be the following:
+> (Q, 7.6) (w,1e.9)
+> > - void f3() — Assuming the list contains at least 3 elements, swap the first element and the last element of the list. The expected output in the file f3.txt should be the
+> following:
+> (D, 2,6) (R, 3, 7)
+> (R, 3, 7) (D. 2,6)
+> > - void f4() — Delete all nodes satisfying: weight < 4? The expected output in the file f4.txt should be as follows:
+> (G, 2,5) (K (L (Y.7,7)
+> (K, 5,6) (L (Y
+> > - void f5() — Delete the first node, then sort the elements ascending by weight (assuming that all weights are different). The expected output in the file f5.txt should be
+> the following:
+> (S, 7,5)

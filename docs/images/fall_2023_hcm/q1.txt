@@ -1,0 +1,18 @@
+Question 1: (4 marks)
+> In this question you need to complete some methods in the MyList.java file.
+> The class Plane with 3 data members: type, capacity and price is provided and you do not need to edit it. The MyList class is a linked list of Plane objects. Complete the
+> following methods:
+> > - void addLast(String xType, int xCapacity, int xprice) - If xprice< 1000 then do nothing; otherwise add a new node with type=xType, capacity=xCapacity, price=xprice
+> to the end of the list.
+> > - void fl() — This method is used to test the addLast method above. You do not need to edit this function. The output saved to f1.txt must be as follows:
+> (B,5,3eøø) (E, 7.9øee) (F.4,7øee)
+> > - void f2() — There are 2 given Plane objects x, y in this function. Assuming the list contains at least 3 elements, write statements to insert x and y into the list so that y
+> will be the second node and x will be the last node. The output saved to f2.txt must be as follows:
+> > - void f3() — Assume the list contains at least 5 elements. Swap the element at position 1 with the element at position 4 (the head's position is O). The output saved to
+> f3.txt must be as follows. (Hint: You only need to swap the data between nodes, not necessarily swap nodes.)
+> (c.9,2øee) (F,l.søee) (G.5,9øee)
+> (D, 2,5øee)
+> > - void f4() — Assume the list contains at least 6 elements. Reverse the last 4 elements. The content of the output file f4.txt must be as follows. (Hint: You only need to
+> swap the data between nodes, not necessarily swap nodes.)
+> (c, 7,6øee) (K, 2,1øøe)
+> (c, 7,6øøe) (K, 2, leee)

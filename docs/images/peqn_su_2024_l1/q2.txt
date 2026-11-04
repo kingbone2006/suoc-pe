@@ -1,0 +1,19 @@
+Question 2: (4 marks)
+> In this question, you need to complete some methods in BSTree.java file.
+> The class Bird with 3 data members: type, rate and wing is provided and you do not need to edit it. The BSTree class is a binary search tree of Bird objects. The variable
+> wing is the key of the tree, thus it must be unique. Complete the following methods:
+> > - void insert(String xType, int xRate, int xWing) - if xType.charAt(0) 'B' then do nothing, othen,vise insert a new Bird object with type=xType, rate=xRate,
+> wing=xWing into the tree (rate and wing can get arbitrary, even negative values).
+> > - void fl() — Do not edit this method. Your task is to complete the insert(...) method above only. The output in the file f1.txt must be the following:
+> (E, 2.5) (F, -6.7)
+> (Y,6,-7) (C,4.3) (B,9,4) (E, 2,5) (D,8.6) (F, -6.7)
+> > - void f2() — Perform breadth-first traversal from the root but display to file f2.txt nodes with rate>4 only. Hint: Copy the function breadth(...) to function breadth2(...)
+> and modify it. The output in the file f2.txt must be the following:
+> (F, 2,3) (K
+> (G, 7,8)
+> > - void f3() — Suppose p is the 4th node when performing the post-order traversal of the tree and f is the father of p. Delete the node f by copying. The output in the file
+> f3.txt must be the following:
+> (D.6,1) (H,1.7) (G.7,8) (E,9.4)
+> > - void f4() — Suppose p is the 4th node when performing the post-order traversal of the tree. Calculate the height of the sub-tree with root p, let this height be k, then
+> set p.info.rate = k. The output in the file f4.txt must be the following:
+> (K (J, 2,5) (G, 7,8)

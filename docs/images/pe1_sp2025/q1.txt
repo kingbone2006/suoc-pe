@@ -1,0 +1,73 @@
+﻿PRACTICAL EXAM - CSD201 - SPRING 2025
+> Duration: 85 minutes
+> This exam focuses on managing a dataset of motorbikes. Each motorbike is identified by an D, a name, a model number, and an engine capacity, as listed in the table
+> below.
+> 2
+> 3
+> 4
+> 5
+> 6
+> 7
+> 8
+> 9
+> IO
+> Name
+> Honda CBR500R
+> Yamaha YZF-R3
+> Kawasaki Ninja 650
+> Suzuki GSX-R750
+> KTM Duke 390
+> Ducati Panigale V4
+> BMW SIOOORR
+> Harley-Davidson Iron 883
+> Triumph Street Triple RS
+> Royal Enfield Interceptor 650
+> Model Number
+> CBR500R-2024
+> YZF-R3-2023
+> Ninja650-2024
+> GSX-R750-2023
+> Duke390-2024
+> PanigaleV4-2024
+> SIOOORR-2023
+> Iron883-2024
+> TripleRS-2023
+> Interceptor650-2024
+> Engine Capacity (cc)
+> 321
+> 649
+> 750
+> 373
+> 1103
+> 999
+> 883
+> 765
+> 648
+> Q1. Create a class named PE_SP25_Q1 (saved in PE_SP25_Q1 java) that uses a singly linked list to manage the data shown in the table above. The singly linked list consists
+> Of:
+> 1. [0.5 points] A Motorbike class that holds the ID (id — integer), name (name — string), model (model — string), and engine capacity (encap — integer) of a motorbike.
+> 2. [I point] addFirst and removeLast methods: the former inserts a new node at the head of the list, while the latter removes the tail node.
+> 3. [0.5 points] Provide a main method to test the implementation.
+> Q2. Create a class named PE_SP25_Q2 (saved in containing:
+> 1. [1 point] A Motorbike class that stores the following information:
+> o Motorbike ID (id — integer)
+> o Motorbike name (name — string)
+> Motorbike model (model — string)
+> 0 Motorbike engine capacity (enCap — integer)
+> o A compareTo method used to compare the engine capacity with another motorbike.
+> 2. A MaxHeap class, implemented with an array-based structure, stores and manages motorbikes according to their engine capacities. This class must support the
+> following operations:
+> 0 2.1 [0.5 points] Build the constructor together with the parameters needed to manage the array-based max heap.
+> 0 2.2 [1.5 points] Implement an insert method that adds a motorbike to the MaxHeap. The compareTo method must be used to compare the motorbikes' engine
+> capacities so that the max heap property is maintained after each insertion.
+> 0 2.3 [0.5 point] Implement a preOrderTraverse method that traverses the max heap in pre-order.
+> 0 2.4 [1.5 points] Implement a delete method that removes a motorbike by its model. The max heap property must be maintained after each deletion.
+> 3. [1 point] Implement a heapSort method that uses the constructed MaxHeap class to sort the motorbike array in increasing order of engine capacities.
+> 4. A main method to test the implementation by carrying out the following tasks:
+> 4.1 [0.5 point] Instantiate the maxheap and add the motorbikes into it.
+> 4.2 [0.5 points] Run a pre-order traversal and display the motorbikes on the screen.
+> 4.3 [0.5 points] Delete the motorbike whose model is "S1000RR-2023", then run the pre-order traversal again.
+> 4.4[0.5 points] Apply the heapSort method to the motorbikes stored in the maxHeap.
+> Important:
+> > - Submit your work in two files (PE_SP25_Q1.java and PE_SP25_Q2.java); a 1 -point penalty is applied if this requirement is not met.
+> > - Only Apache NetBeans IDE software is permitted during examination.

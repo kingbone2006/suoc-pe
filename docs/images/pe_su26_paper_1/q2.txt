@@ -1,0 +1,12 @@
+Question 2 — f2() (2.5 marks): List books published after a given year.
+> > - File: BookList.java
+> > - Method to Complete: printAfter(int year)
+> > - Task: Walk through the list and return a new Booklist containing all books whose year is strictly greater than the given value.
+> 0 If there is no possible value, "Empty" will be printed.
+> 0 The books must remain in the same order as in the original list.
+> 0 The original list must not be modified.
+> Expected example output:
+> Current Books :
+> {801, , , Data_structures , Algorithms , Database_systems , 2017}
+> Listing books published after 2018:
+> {802. Data_Structures , , Algorithms 2e2ø}

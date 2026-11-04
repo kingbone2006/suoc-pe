@@ -1,0 +1,60 @@
+﻿CSD201 PE INSTRUCTIONS
+> Read all the instructions carefully before you start coding.
+> Note: Submit 1 Java file only (Main.java).
+> Questions: (10 marks)
+> Build a Binary Search Tree (BST) to manage employee records. Each employee has the following attributes:
+> > - ID (integer, unique — used as BST key)
+> > - Name (String)
+> > - Department (String)
+> > - Seniority (integer, in years)
+> Dataset:
+> 104
+> 102
+> 103
+> 101
+> 107
+> 106
+> 108
+> 105
+> Name
+> Nam Nguyen
+> Linh Phan
+> Minh Le
+> Ngoc Nguyen
+> Huong Pham
+> Tuan Tran
+> Hang Le
+> Hung Nguyen
+> Department
+> Finance
+> Finance
+> Finance
+> Seniority
+> 5
+> 3
+> 6
+> 3
+> 2
+> 4
+> 5
+> I. (0.5 marks) — Employee class
+> Create an Employee class that encapsulates the ID, Name, Department and Seniority attributes.
+> 2. (0.5 marks) — Node class
+> Create a Node class with fields: info (an Employee object), left, and right (pointers used for BST linking).
+> 3. (6 marks) — BST class
+> Create a BST class (Binary Search Tree keyed by Employee D) with the following methods:
+> > - void insert(Employee e) — Insert a new Employee into the BST according to the ID. [1 mark]
+> > - void inorder() — Traverse the tree in in-order and print each employee. [1 mark]
+> > - Employee search(String name) — Find and return the employee with the given name. [I mark]
+> > - void delete(int id) — Remove from the BST the node with the given ID. [1 mark]
+> > - boolean checkBalance() — Check whether the BST is balanced (height difference of left and right subtrees 1 for all nodes). Return true if it is balanced, false
+> otherwise. [1 mark]
+> > - Employee findMaxSeniority() — Find and return the employee having the highest seniority value. [1 mark]
+> 4. (3 marks) — Main class
+> Write a main method in the Main class that:
+> 1. Builds a BST and inserts all 8 employees from the dataset above. [0.5 marks]
+> 2. Runs in-order traversal and prints all employees. [0.5 marks]
+> 3. Looks up the employee named "Minh Le" and prints the result. [0.5 marks]
+> 4. Calls checkBalance() and prints whether the BST is balanced. [0.5 marks]
+> 5. Deletes the employee with ID 108, calls checkBalance() again, and prints the result. [0.5 marks]
+> 6. Calls findMaxSeniority() and prints the employee who has the highest seniority. [0.5 marks]

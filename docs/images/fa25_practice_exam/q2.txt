@@ -1,0 +1,22 @@
+Question 2: (4 marks)
+> In this question, you need to complete some methods in the BSTree.java file.
+> The class Canoe with 3 data members: driver, rate and color is given and you do not need to edit it. The BSTree class is a binary search tree of Canoe objects. The variable
+> rate is the key of the tree, thus it must be unique. The following methods are required to be completed:
+> > - void insert(String xDriver, int xRate, int xColor) - if xDriver.charAt(0) 'B' then do nothing, otherwise insert a new Canoe object with driver=xDriver, rate=xRate,
+> color=xColor to the tree (rate and color can get arbitrary, even negative values).
+> > - void fl() — Do not edit this method. Your task is to complete the insert(...) method above only. Write the output below to the file f1.txt:
+> (A, 7,9) (E, 2,5) (F, -6.7)
+> (F, -6,7)
+> > - void f2() — Perform breadth-first traversal from the root but display to file f2.txt leaf nodes only. Hint: Copy the function breadth(...) to function breadth2(...) and
+> modify it. Write the output below to the file f2.txt:
+> (F, 2, -1) (G, 7.3) (K, -1,5)
+> (G, 7, 3) (K, -1.5)
+> > - void f3() — Suppose p is the 3rd node having 2 non-empty children when performing breadth-first traversal of the tree. Delete the node p by copying. The output in
+> the file f3.txt must contain 3 lines: the statements to display line 1 and line 3 are already given. If p has father fa then use the statement f.writeBytes(fa.info + "\r\n")
+> to display fa in line 2.
+> (F, 2, -1) (K, -1,5)
+> (G, 7.3) (K, -1,5) (J, 3,9) (L,5.1Ø)
+> > - void f4() — Suppose p is the 2nd node having 2 non-empty children when performing breadth-first traversal of the tree. Rotate p to right. Write the output below to
+> the file f4.txt:
+> (F, 2, -1) (K, -1,5)
+> (K, -1,5)

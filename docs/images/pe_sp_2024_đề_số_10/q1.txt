@@ -1,0 +1,18 @@
+Question 1: (4 marks)
+> In this question, you need to complete some methods in the MyList.java file.
+> The class Bottle with 3 data members: maker, volume and color is given, and you do not need to edit it. The MyList class is a linked list of Bottle objects. Complete the
+> following methods:
+> > - void addLast(String xMaker, int xVolume, int xColor) - check if xMaker.charAt(0) 'A' then do nothing, otherwise add new node with maker=xMaker,
+> volume=xVolume, color=xColor to the end of the list. (volume and color can get arbitrary, even negative values).
+> > - void fl() — Do not edit this method. You only need to complete the addLast(...) method above. Output in the file f1.txt must be the following:
+> (E, 7,9) (G, -3.2)
+> > - void f2() — There are 3 given Bottle objects x, y, z in this function. Assume the list contains at least 3 elements. Write statements to insert x, y and z into the list so that
+> x, y and z will be at positions 1, 2 and 4 (the head's position is O). Output in the file f2.txt must be the following:
+> > - void f3() — Assume the list contains at least 3 elements. Remove the first node having the maximum color and insert it at position 1. (The head's position is O). Output
+> in the file f3.txt must be the following:
+> (C, 7.6) (F. 7,9) (G,8.7) (1.8,3)
+> (C, 7,6)
+> > - void f4() — Assume the list contains at least 6 elements and p is the 6th element in the list. Change the color of p to 88, then sort all elements before p in ascending
+> order of color. The content of the output file f4.txt must be the following:
+> (L (M, 3.4)
+> (F, 1,2)

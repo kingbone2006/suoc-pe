@@ -1,0 +1,17 @@
+Question 3: (2 marks)
+> In this question, you need to complete several methods in the Graph.java file.
+> The Graph class implements a graph. Complete the following methods:
+> > - void fl() — Perform a breadth-first traversal (to the file f1.txt) from the vertex (the vertex D), but display only 5 vertices with their degrees, from the 3rd vertex to
+> the 7th vertex. Hint: copy breadth(...) to breadth2(...) and modify the latter one. The array int deg[] already declared in the class Graph. You should calculate d[il =
+> degree of the vertex i, and use the function fvisitDeg(...) to display a vertice with degree to file. Content of the output file f1.txt must be:
+> DABGCEFHI
+> B(3) G(l) C(3) E(2) F(l)
+> > - void f2() — Apply Dijkstra's shortest path algorithm to find (1) the shortest path from vertex 0 (A) to vertex 6 (G), then (2) from vertex 1 (B) to vertex 5 (F). Write 3 lines
+> to the file f2.txt: line 1 contains the first 3 vertices selected into the set S in (1), line 2 contains the 1st, 3rd, last vertices in the shortest path and the shortest distance in
+> (1), line 3 contains the vertices in the shortest path (2). (Note that in the weighted matrix, the value 99 is considered as infinity). Output in the file f2.txt must be the
+> following:
+> ACG
+> c
+> 29
+> B
+> E

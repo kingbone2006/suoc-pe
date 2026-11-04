@@ -1,0 +1,10 @@
+class Node
+ {Plane info;
+  Node next;
+  Node(Plane x, Node p)
+   {info=x;next=p;
+   }
+  Node(Plane x)
+   {this(x,null);
+   }
+ }

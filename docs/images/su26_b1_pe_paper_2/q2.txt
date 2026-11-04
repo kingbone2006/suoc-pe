@@ -1,0 +1,19 @@
+Question 2: (4 marks)
+> In this question, you need to complete a number of methods in the BSTree.java file.
+> The class Carp with 3 data members: pond, size and state is provided and you do not need to edit it. The BSTree class is a binary search tree of Carp objects, in which the
+> variable size is the key of the tree and therefore must be unique. Complete the following methods:
+> > - void insert(String xPond, int xSize, int xState)- check if xPond.charAt(0) 'B' then do nothing, otherwise insert new Carp object with pond=xPond, size=xSize,
+> state=xState to the tree (size and state can get arbitrary, even negative values).
+> > - void fl() — Do not edit this method. Your only task is to complete the insert(...) method above. The output in the file f1.txt must be the following:
+> > - void f2() — Perform a post-order traversal from the root, but write to f2.txt only the nodes with size < 7. Hint: copy the function postOrder(...) into a new function
+> postOrder2(...) and modify it. The output in the file f2.txt must be the following:
+> (l, 1,7) (L5,10) (H, 10,8)
+> (l, 1,7) (L5,10)
+> > - void f3() — Suppose p is the 3rd node in the pre-order traversal of the tree from the root, and f is the father of p. Delete by copying 2 nodes: p first, then f. The output
+> in the file f3.txt must be the following:
+> (D,6,1) (H, 10,8)
+> (E9,4) (K-1,5)
+> > - void f4() — Perform the pre-order traversal of the tree from the root, and find the 3rd node p having a non-empty left son. Rotate p to the right. The output in the file
+> f4.txt must be the following:
+> (F,2,-1) (H, 10,8) (K-1,5) (L5,10)
+> (K-1,5) (L5,10)

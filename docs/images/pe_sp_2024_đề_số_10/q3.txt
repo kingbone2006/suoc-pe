@@ -1,0 +1,13 @@
+Question 3: (2 marks)
+> In this question, you need to complete some methods in the Graph.java file.
+> The class Graph implements a graph. Complete the following methods:
+> > - void fl() — Perform a breadth-first traversal (to the file f1.txt) starting from vertex (vertex D), but display only 6 vertices, from the 3rd vertex to the 8th vertex. Hint:
+> copy breadth(...) to breadth2(...) and modify the latter. The content of the output file f1.txt must be:
+> DAG BCE HIF
+> G BCE HI
+> > - void f2() — Apply Dijkstra's shortest path algorithm to find (1) the shortest path from vertex 1 (B) to vertex 5 (F), then (2) from vertex O (A) to vertex 6 (G). Write 3 lines
+> to the file f2.txt: line 1 contains the vertices in the shortest path (1), line 2 contains the last 4 vertices selected into the set S in (2), line 3 contains the vertices with their
+> labels in the shortest path (2). (Note that in the weighted matrix, the value 99 is considered as infinity). Output in the file f2.txt must be the following:
+> BCE DF
+> Ale
+> BIIe c112 E115 D119 6129

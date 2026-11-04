@@ -1,0 +1,10 @@
+Question 3: (2 marks)
+> In this question you need to complete some methods in Graph.java file.
+> The Graph class is the implementation of a graph. The following methods should be completed:
+> > - void fl() — Perform a depth-first traversal (to the file f1.txt) from the vertex (the vertex B) but display first 5 vertices only. Hint: copy depth(...) to depth2(...) and
+> modify the latter one. Content of the output file f1.txt must be:
+> BGAEFICHD
+> B GA E F
+> > - void f2() — Supposed the given graph has Euler's cycle. Apply the pseudocode in the Graph.java file to write statements to find the Euler's cycle from the vertex I (B).
+> The output in the file f2.txt must be the following:
+> BDEDCBEGFAB

@@ -1,0 +1,195 @@
+/* This program contains 2 parts: (1) and (2)
+   YOUR TASK IS TO COMPLETE THE PART  (2)  ONLY
+ */
+//(1)==============================================================
+import java.util.*;
+import java.io.*;
+public class MyList {
+    Node head, tail;
+    MyList() {
+        head = tail = null;
+    }
+    boolean isEmpty() {
+        return (head == null);
+    }
+    void clear() {
+        head = tail = null;
+    }
+    void fvisit(Node p, RandomAccessFile f) throws Exception {
+        if (p != null) {
+            f.writeBytes(p.info + " ");
+        }
+    }
+    void ftraverse(RandomAccessFile f) throws Exception {
+        Node p = head;
+        while (p != null) {
+            fvisit(p, f);
+            p = p.next;
+        }
+        f.writeBytes("\r\n");
+    }
+    void loadData(int k) {
+        String[] a = Lib.readLineToStrArray("data.txt", k);
+        int[] b = Lib.readLineToIntArray("data.txt", k + 1);
+        int[] c = Lib.readLineToIntArray("data.txt", k + 2);
+        int n = a.length;
+        for (int i = 0; i < n; i++) {
+            addLast(a[i], b[i], c[i]);
+        }
+    }
+//===========================================================================
+//(2)===YOU CAN EDIT OR EVEN ADD NEW FUNCTIONS IN THE FOLLOWING PART========
+//===========================================================================
+/* 
+   Khong su dung tieng Viet co dau de viet ghi chu.
+   Neu dung khi chay truc tiep se bao loi va nhan 0 diem
+*/
+    void addLast(String xProducer, int xWeight, int xPrice) {
+    //You should write here appropriate statements to complete this function.
+        if (xWeight > 3 && xPrice > 3) {
+            Laptop newLaptop = new Laptop(xProducer, xWeight, xPrice);
+            Node newNode = new Node(newLaptop);
+            if (isEmpty()) {
+                head = tail = newNode;
+            } else {
+                tail.next = newNode;
+                tail = newNode;
+            }
+        }
+    }
+  //You do not need to edit this function. Your task is to complete the addLast function above only.
+    void f1() throws Exception {
+        clear();
+        loadData(1);
+        String fname = "f1.txt";
+        File g123 = new File(fname);
+        if (g123.exists()) {
+            g123.delete();
+        }
+        RandomAccessFile f = new RandomAccessFile(fname, "rw");
+        ftraverse(f);
+        f.close();
+    }
+    void f2() throws Exception {
+        clear();
+        loadData(5);
+        String fname = "f2.txt";
+        File g123 = new File(fname);
+        if (g123.exists()) {
+            g123.delete();
+        }
+        RandomAccessFile f = new RandomAccessFile(fname, "rw");
+        ftraverse(f);
+        Node v = new Node(new Laptop("V", 8, 9));
+        Node w = new Node(new Laptop("W", 6, 7));
+        v.next = head;
+        head = v;
+        tail.next = w;
+        tail = w;
+        ftraverse(f);
+        f.close();
+    }
+    void f3() throws Exception {
+        clear();
+        loadData(9);
+        String fname = "f3.txt";
+        File g123 = new File(fname);
+        if (g123.exists()) {
+            g123.delete();
+        }
+        RandomAccessFile f = new RandomAccessFile(fname, "rw");
+        ftraverse(f);
+        Node current = head;
+        Node previous = null;
+        Node maxWeightNode = null;
+        Node maxWeightPrevNode = null;
+        int maxWeight = Integer.MIN_VALUE;
+        while (current != null) {
+            Laptop currentLaptop = current.info;
+            if (currentLaptop.weight > maxWeight) {
+                maxWeight = currentLaptop.weight;
+                maxWeightNode = current;
+                maxWeightPrevNode = previous;
+            }
+            previous = current;
+            current = current.next;
+        }
+        if (maxWeightNode != null) {
+            if (maxWeightPrevNode == null) {
+                head = maxWeightNode.next;
+                if (head == null) {
+                    tail = null;
+                }
+            } else {
+                maxWeightPrevNode.next = maxWeightNode.next;
+                if (maxWeightNode == tail) {
+                    tail = maxWeightPrevNode;
+                }
+            }
+        }
+        ftraverse(f);
+        f.close();
+    }
+    void f4() throws Exception {
+        clear();
+        loadData(13);
+        String fname = "f4.txt";
+        File g123 = new File(fname);
+        if (g123.exists()) {
+            g123.delete();
+        }
+        RandomAccessFile f = new RandomAccessFile(fname, "rw");
+        ftraverse(f);
+        int result = 0;
+        int count = 0;
+        Node current = head;
+        while (current != null) {
+            count++;
+            current = current.next;
+        }
+        result = count;
+        f.writeBytes(result + "");
+        f.close();
+    }
+    void f5() throws Exception {
+        clear();
+        loadData(17);
+        String fname = "f5.txt";
+        File g123 = new File(fname);
+        if (g123.exists()) {
+            g123.delete();
+        }
+        RandomAccessFile f = new RandomAccessFile(fname, "rw");
+        ftraverse(f);
+        if (head != null) {
+            head = head.next;
+            if (head != null) {
+                head = head.next;
+            }
+        }
+        sortListByWeight();
+        ftraverse(f);
+        f.close();
+    }
+    void sortListByWeight() {
+        if (head == null) {
+            return;
+        }
+        boolean sorted;
+        do {
+            sorted = true;
+            Node current = head;
+            Node nextNode = current.next;
+            while (nextNode != null) {
+                if (current.info.weight > nextNode.info.weight) {
+                    Laptop temp = current.info;
+                    current.info = nextNode.info;
+                    nextNode.info = temp;
+                    sorted = false;
+                }
+                current = nextNode;
+                nextNode = current.next;
+            }
+        } while (!sorted);
+    }
+}

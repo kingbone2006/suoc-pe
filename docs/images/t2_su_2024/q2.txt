@@ -1,0 +1,21 @@
+Question 2: (5 marks)
+> In this question you need to complete some methods in the BSTree.java file.
+> The Bird class with 3 data members: place, weight and color is given and you do not need to edit it. The BSTree class is a binary search tree of Bird objects. The variable
+> weight is the key of the BSTree, so it must be unique. The following methods need to be completed:
+> > - void insert(String xPlace, int xWeight, int xColor) - The variable weight is the key of the BSTree, so it must be unique.
+> > - void fl() — Add statements inside the insert(...) method so that any node with xPlace.charAt(0) 'X' is not inserted into the tree. The expected output in file f1.txt
+> should be as follows (line 1: Breadth first traversal, line 2: In-order traversal):
+> (P, 1,3) (F, 7,4)
+> > - void f2() — Perform a pre-order traversal of the left branch of the BST, but write to file f2.txt only the nodes with color>4. Hint: Copy the function preorder(...) to
+> function preOrder2(...) and modify it. The expected output in the file f2.txt should be the following (line I: Breadth first traversal, line 2: pre-order traversal):
+> (P, 7,9) (H, 2,5) (L
+> (H, 2,5) (L
+> > - void f3() — Perform a new traversal method to visit all nodes in the BST with the constraint: visit the nodes in the descending order of weight. The expected output in
+> the file f3.txt must be the following:
+> (T (M, 7.2) (R.5,9) (S,4.1) (L (Y. 1,6)
+> > - void f4() — Print out the internal nodes of the tree. The expected output in the file f4.txt should be the following (line 1: pre-order traversal, line 2: internal nodes (by
+> pre-order traversal)):
+> (D,5, -3) (G, 7.4)
+> > - void f5() — How many leaf nodes are there in the BST? The expected output in the file f5.txt should be the following (line 1: in-order traversal, line 2: the number of
+> leaf nodes):
+> (L, 1,5) (GS, -6)

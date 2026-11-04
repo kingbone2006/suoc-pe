@@ -1,0 +1,21 @@
+Question 2: (4 marks)
+> For this question, you need to complete some methods in the BSTree.java file.
+> The class Brick with 3 data members: owner, color and size is given and you do not need to edit it. The BSTree class is a binary search tree of Brick objects. The variable
+> color is the key of the tree, thus it must be unique. Complete the following methods:
+> > - void insert(String xOwner, int xColor, int xSize) - check if xOwner.charAt(0) 'B' then do nothing, otherwise insert new Brick with owner=xowner, color=xColor,
+> size=xSize to the tree (color and size can get arbitrary, even negative values).
+> > - void fl() — Do not edit this method. Your task is to complete the insert(...) method above only. The output in the file f1.txt must be the following:
+> (A, 7,9) (E, 2,5)
+> (E. 2.5) (A. 7,9)
+> > - VOId
+> - t2() — Perform pre-order traversal trom the root but display to the tlle t
+> txt nodes Wlth size<7 only. Hint:
+> the tunctlon preorder(...) to tuncüon
+> preOrder2(...) and modify it. The output in the file f2.txt must be the following:
+> (C, 3,6)
+> > - void f3() — Perform breadth-first traversal and find the first node p having color<6, then delete the node p by copying. The output in the file f3.txt must be the
+> following:
+> (F, 2,4)
+> > - void f4() — Perform breadth-first traversal and find the first node p having color<6, then rotate p to the right. The output in the file f4.txt must be the following:
+> (E, 7,6) (F, 2,4)
+> (E, 7,6)

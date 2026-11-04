@@ -1,0 +1,16 @@
+Question 1: (4 marks)
+> In this question, you need to complete some methods in the MyList.java file.
+> The class Canary with 3 data members: place, song and wing is provided, and you do not need to edit it. The MyList class is a linked list of Canary objects. Complete the
+> following methods:
+> > - void addLast(String xPlace, int xSong, int xWing) - check if xPlace.charAt(0) 'A' then do nothing, otherwise add new node with place=xPlace, song=xSong,
+> wing=xWing to the end of the list. (song and wing can get arbitrary, even negative values).
+> > - void fl() — Do not edit this method. Your task is to complete only the addLast(...) method above. Output in the file f1.txt must be the following:
+> (E, 7,9) (G, -3, 2)
+> > - void f2() — There are 3 given Canary objects x, y, z in this function. Write statements to insert x, y and z into the list so that they are at positions 2, 5 and 6 (the head's
+> position is 0). Output in the file f2.txt must be the following:
+> > - void f3() — Find the node p where place = E. Let k = p.info.wing. Remove all nodes in the list having wing < k. Output in the file f3.txt must be the following:
+> (C.8,6) (G,9.7) (1.7,3)
+> > - void f4() — Find the node p where place = E and the node q where place = K. Sort the elements from p to q (inclusive) ascendingly by wing. The content of the output
+> file f4.txt must be the following:
+> (C, 7,9) (F, 5,6) (J, 3.4)
+> (C. 7.9) (K, 2, 3) (3.3,4) (1.4.5) (E.6,16)

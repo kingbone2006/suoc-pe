@@ -1,0 +1,20 @@
+Question 2: (4 marks)
+> In this question you need to complete some methods in BSTree.java files.
+> The class Car with 2 data members: owner and price is given and you do not need to edit it. BSTree is a binary search tree of Car objects, in which price is the key of the
+> tree. The following methods should be completed:
+> > - void insert(string xOwner, int xPrice) - check if xOwner.charAt(0) 'B' or xPrice> 100 then do nothing, otherwise insert a new car with owner=xOwner, price=xPrice
+> into the tree.
+> > - void fl() — You do not need to edit this function; your task is to complete the insert(...) function above only. The output in the file f1.txt must be the following:
+> (C, 2) (E,4) (G, 3) (D,6) (F, 7)
+> (G,3) (E,4) (A,5) (D,6) (F, 7)
+> > - void f2() — Perform a pre-order traversal from the root, but display to the file f2.txt only nodes having price in the interval [3,5]. Hint: Copy the function preOrder(...) to
+> (CS) (D. 2) (F,4) (H, 3) (1.5) (EN) (G, 7)
+> (F,4) (H,3) (1,5)
+> > - void f3() — Perform a breadth-first traversal from the root and delete by copying the first node having both 2 sons and price < 7. The output in the file f3.txt must be
+> the following:
+> (C,8) (D,6) (E,9) (F, 2) (G, 7) (H,l) (I, 3) (3, 5) (KA)
+> (C,8) (3,5) (E,9) (F, 2) (G, 7) (H.l) (1.3) (K,4)
+> > - void f4() — Perform a breadth-first traversal from the root and find the first node p having left son and price < 7. Rotate p to right about its' left son. The output in the
+> file f4.txt must be the following:
+> (C,8) (D,6) (E,9) (F, 2) (G, 7) (H, 1) (1, 3) (3,5) (KA)
+> (C,8) (F, 2) (E,9) (H,l) (D,6) (1.3) (G,7) (3,5) (KA)

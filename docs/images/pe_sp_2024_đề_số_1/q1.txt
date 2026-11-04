@@ -1,0 +1,15 @@
+Question 1: (5 marks)
+> In this question, you are required to complete some methods in the MyList.java file.
+> The class Bike, which has 3 data members: place, weight and color, is provided and does not need to be edited. The MyList class is a linked list of Bike objects. Complete
+> the following methods:
+> > - void addLast(String xPlace, int xWeight, int xColor) - Note that the value of xWeight must be bigger than O.
+> > - void fl() — Do not edit this method. Your task is to complete only the addLast(...) method above. The output in the file f1.txt must be as follows:
+> > - void f2() — Assuming the list contains at least three nodes, delete the first three nodes. The output in the file f2.txt must be as follows:
+> (L (Q, 7,6)
+> > - void f3() — Assuming the list contains at least 3 elements, move the third element to the end of the list. The output in the file f3.txt must be as follows:
+> (A, 1, -3) (D, 2,6) (R, 3, 7)
+> (A, 1, -3) (B,9.2) (Q. 4,5) (R, 3.7) (D, 2.6)
+> > - void f4() — How many Bikes in the list satisfy the condition: color > O? The output in the f4.txt file should be as follows:
+> > - void f5() — Delete the first element, then sort the elements in descending order of weight. The content of the output file f5.txt must be as follows:
+> (S, 7,5)
+> (D, 3,9)

@@ -1,0 +1,12 @@
+class Brick {
+  String owner;
+  int color,size;
+  Brick() {
+   }
+  Brick(String xOwner, int xColor, int xSize){
+    owner=xOwner;color=xColor; size=xSize;
+   }
+  public String toString(){
+    return("(" +owner+","+color + "," + size + ")");
+   }
+ }

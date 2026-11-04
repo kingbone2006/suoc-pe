@@ -1,0 +1,20 @@
+Question 2: (5 marks)
+> In this question, you are required to complete some methods in the BSTree.java file.
+> The class Cat, which has 3 data members: place, weight and color, is provided and does not need to be edited. The BSTree class is a binary search tree of Cat objects. The
+> variable weight is the key of the BSTree, so it must be unique. Complete the following methods:
+> > - void insert(String xPlace, int xWeight, int xColor) - The variable weight is the key of the BSTree, so it must be unique.
+> > - void fl() — Add statements to the insert(...) method so that any node whose xPlace.charAt(0) 'X' is not inserted into the tree. The output in file f1 .txt should be as
+> follows (line 1: Breadth first traversal, line 2: In-order traversal):
+> (P, 1, 3) (N, 3.6) (F, 7,4)
+> > - void f2() — Perform a pre-order traversal of the left branch of the BST, but write only nodes with color>4 to file f2.txt. Hint: Copy the preOrder(...) function into a new
+> function preOrder2(...) and modify it. The output in the file f2.txt must be as follows (line 1: Breadth first traversal, line 2: pre-order traversal):
+> (P, 7,9) (H, 2,5) (L
+> (H, 2,5) (L
+> > - void f3() — Implement a new traversal to visit all nodes in the BST under the constraint: visit the nodes in the descending order of weight. The output in the file f3.txt
+> must be as follows:
+> (R, 5,9) (L (Y, 1,6)
+> > - void f4() — Print the internal nodes of the tree. The output in the file f4.txt must be as follows (line 1: pre-order traversal, line 2: internal nodes (by pre-order
+> traversal)):
+> (C, 3, -8) (F,4.2) (D, 5, -3)
+> (B, 2.7) (C,3, -8) (F.4,2) (E,8.3)
+> > - void f5() — (content not fully captured in images)

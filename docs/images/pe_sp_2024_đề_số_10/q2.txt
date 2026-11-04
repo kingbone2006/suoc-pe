@@ -1,0 +1,18 @@
+Question 2: (4 marks)
+> In this question, you need to complete some methods in the BSTree.java file.
+> The class Bottle with 3 data members: maker, volume and color is given, and you do not need to edit it. The BSTree class is a binary search tree of Bottle objects. The
+> variable volume is the key of the tree, thus it must be unique. Complete the following methods:
+> > - void insert(String xMaker, int xVolume, int xColor) - check if xMaker.charAt(0) A' then do nothing, othemise insert new Bottle object with maker=xMaker,
+> > - void fl() — Do not edit this method. You only need to complete the insert(...) method above. Output in the file f1.txt must be the following:
+> (F, -6.7)
+> (F, -6,7)
+> > - void f2() — Perform a pre-order traversal from the root but write to file f2.txt only nodes with volume<7. Hint: Copy the function preOrder(...) to function preOrder2(...)
+> and modify it. Output in the file f2.txt must be the following:
+> (G, 7,3)
+> (K, -1,5)
+> > - void f3() — Assume p is the 6th node in the post-order traversal from the root. Delete node p by copying. Output in the file f3.txt must be the following:
+> (F, 2, -1) (D,6.1) (K,-I.S) (L,5.1Ø)
+> > - void f4() — Assume p is the 3rd node having a right child in the pre-order traversal from the root. Count the number of nodes in the sub-tree with root p. If this
+> number is k, change p.info.volume to 100+k. Output in the file f4.txt must be the following:
+> (G, 7,3)
+> (F,2,-1) (G, 7,3)

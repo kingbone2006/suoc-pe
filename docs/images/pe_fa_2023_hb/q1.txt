@@ -1,0 +1,21 @@
+Question 1: (6 marks)
+> In this question, you need to complete some methods in the MyList.java file.
+> The class Worker (with 3 data members: name, salary and ability) is provided and you do not need to modify it. The MyList class is a linked list of Worker objects. Complete
+> the following methods:
+> > - void addLast(String xName, int Salary, int xAbility) - if xName.charAt(0) == 'A' then do nothing, otherwise add a new node with name=xName, salary=xSalary,
+> ability=xAbility to the end of the list. (salary and ability can take arbitrary values, even negative ones).
+> > - void fl() — Do not edit this method. Your only task is to complete the addLast(...) method above. The output in the file f1.txt must be as follows:
+> (E, 7,9) (G, -3.2)
+> > - void f2() — There are 2 given Worker objects x, y in this function. Assume the list contains at least 5 elements. Write statements to insert x and y into the list so that x
+> becomes the 1st node and y becomes the 5th node. The output in the file f2.txt must be as follows:
+> > - void f3() — Find the first node having salary>8 then change its ability to 100. The output in the file f3.txt must be as follows:
+> (D, 3,5) (F, 5,8) (G,9.7) (H,6.8) (1,7,3)
+> > - void f4() — Sort all elements descendingly by salary. The content of the output file f4.txt must be as follows:
+> (C, 1,2) (E, 2, 15)
+> (J, 12,15) (F, 11,6) (1.6, 14) (E. 2,15)
+> > - void f5() — Sort the linked list in descending order of salary, then delete the 1st and 3rd elements. The content of the output file f5.txt must be as follows:
+> (C, 1,2) (E, 2, 15) (J, 12, 15) (K
+> (F, 11,6) (K, 7.9) (C. 1, 2)
+> > - void f6() — Find and delete the Worker having Salary = 11. The content of the output file f6.txt must be as follows:
+> (C. 1, 2) (E, 2, 15) (1.6,14) 0.12, 15)
+> (C, 1,2) (E, 2, 15) (K, 7,9)

@@ -1,0 +1,23 @@
+Question 3: (2 marks)
+> In this auestion vou should cornolete some methods in Graoh.iava file.
+> x
+> Close
+> Question paper (build 07.05.20.19)
+> Question 3: (2 marks)
+> In this question you should complete some methods in Graph.java file.
+> The class Graph is the implementation Of a graph. The folbwing methods should be completed:
+> > - void breadth-first traversal (to the filefl.txt)from the vertex (the vertex E) but
+> display 5 vertices from the 2nd vertex to the 6th vertex only. Hint: copy breadth(...) to
+> breadth2(...) and modify the latter one. Content of the output file f1.txt must be:
+> E BHAI CDG F
+> BHAI C
+> > - void m —Apply the Dijkstra's shortest path algorithm to find (1) the shortest path from vertexO
+> (A) to vertex 6 (G), then (2) from vertext2 (C) to vertex 5 (F). Write 3 lines to the file f2.txt: line 1
+> contains the last 3 vertices selected into the set S for shortest path (1), line 2 contains labels of
+> vertices in the line 1 correspondingly, line 3 contains vertices in shortest path (2). (Note that in
+> the weighted matrix, the value 99 is considered as infinity). Output in the file f2.txt must be the
+> following:
+> 192429
+> CED F
+> x
+> Close

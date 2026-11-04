@@ -1,0 +1,18 @@
+Question 1: (4 marks)
+> In this question you need to complete some methods in the MyList.java file.
+> The class Drum with 3 data members: tower, sound and type is given and you do not need to edit it. The MyList class is a linked list of Drum objects. The following
+> methods need to be completed:
+> > - void addLast(String xTower, int xSound, int xType) - check if xTower. chant(Ø)
+> 'B' then do nothing, otherwise add new node with tower=xTower,
+> sound=xSound, type=xType to the end of the list. (sound and type can get arbitrary, even negative values).
+> > - void fl() — Do not edit this method. Your task is to complete the addLast(...) method above only. The output in the file f1.txt must be the following:
+> (A (C, 6, 5) (D, 2,4) (E, 7, 9) (F
+> > - void f2() — There are 2 given Drum objects x, y in this function. Assume the list contains at least 3 elements. Write statements to insert x and y into the list so that x will
+> be the 3rd node and y will be the 5th node. The output in the file f2.txt must be the following:
+> (Y, 3.4) (1,4.9)
+> > - void f3() — Suppose p is the first node having maximum sound and it is not the tail. Delete the node after p. The output in the file f3.txt must be the following:
+> (D, 3.5) (1.7.3)
+> > - void f4() — Assume the list contains at least 4 elements. Sort the last 4 elements in descending order by sound. The content of the output file f4.txt must be the
+> following:
+> (C, 1,2) (E, 2, 15) (1,6.14) (J, 11, 7) (K, 7,9)
+> (C. 1, 2) (D,1e.3) (E, 2, 15) (K. 7.9) (1,6.14)

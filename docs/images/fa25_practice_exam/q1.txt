@@ -1,0 +1,17 @@
+Question 1: (4 marks)
+> In this question, you need to complete some methods in the MyList.java file.
+> The class Canoe with 3 data members: driver, rate and color is given and you do not need to edit it. The MyList class is a linked list Of Canoe Objects. The following
+> methods are required to be completed:
+> > - void addLast(String xDriver, int xRate, int xColor) - if xDriver.charAt(0) 'A' then do nothing, otherwise add a new node with driver=xDriver, rate=xRate,
+> color=xCoIor to the end of the list. (rate and color can get arbitrary, even negative values).
+> > - void fl() — Do not edit this method. Your task is to complete the addLast(...) method above only. Write the output below to the file f1.txt:
+> (E, 7,9) (G, -3.2)
+> > - void f2() — In this function, 3 Canoe objects x, y, z are already given. Write statements to insert x, y and z into the list so that x, y, z will be at positions 1, 2 and before
+> tail (The head's position is O). Write the output below to the file f2.txt:
+> (Z,3.4) 0.3, 7)
+> > - void f3() — Remove the 3rd node having color > minimum color. (If such node does not exist then do nothing). Write the output below to the file f3.txt:
+> (C, 7,6) (F, 7,9)
+> (C, 7,6) (F, 7,9) (3,5.4)
+> > - void f4() — Find the first node p having driver = J. Reverse elements before p. Write the output below to the file f4.txt:
+> (E,8.7) (J,6.8) (L (M, 3.4)
+> (D, 11,12) (L (M, 3.4)

@@ -1,0 +1,20 @@
+Question 1 (4 marks)
+> In this question you need to complete some methods in the MyList.java file.
+> The Carp class with 3 data members: pond, size and state is already given, so you do not need to edit it. The MyList class is a linked list of Carp objects. Complete the
+> following methods:
+> > - void addLast(String xPond, int xSize, int xState) - check if xPond.charAt(0) 'A' then do nothing, otherwise add new node with pond=xPond, size=xSize,
+> state=xState to the end of the list. (size and state can get arbitrary, even negative values).
+> > - void fl() - Do not edit this method. Your task is to complete the addLast(...) method above only. The file f1.txt must contain the following output:
+> (D, 2,4) (G, -3, 2)
+> > - void f2() - Assume the list contains at least 5 elements. There are 3 given Carp objects x, y, z in this function. Write statements to insert x, y and z to the list so that
+> x, y, z will be at positions 1, 2 and before the tail. (The head's position is O). The file f2.txt must contain the following output:
+> > - void f3()
+> > - void f4()
+> (Z, 3.4)
+> - Assume the list is not empty. Find the (first) node having maximum state and change size to 77.. The file f3.txt must contain the following output:
+> (F. 7,9) (G,8.7) (1.8,3) (3,5.4)
+> (F, 77,9)
+> - Assume that in the list there is only one element p having pond = D and q having pond-K. Reverse elements from p to q. The content of the output file
+> f4.txt must be the following:
+> (1, 7.9) (K (L (M, 3.4)
+> (C.9,8) (K,5.6) (F,1.2) (D. 11,12) (L .4,8) (M, 3.4)

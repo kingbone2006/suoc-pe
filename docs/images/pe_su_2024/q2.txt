@@ -1,0 +1,18 @@
+Question 2: (4 marks)
+> In this question, you need to complete several methods in the BSTree.java file.
+> The Brick class with 3 data members: place, price and type is given and you do not need to edit it. The BSTree class is a binary search tree of Brick objects. The variable
+> type is the key of the tree, thus it must be unique. Complete the following methods:
+> > - void insert(String xPlace, int xPrice, int xType) - if xPlace.charAt(0) 'A' then do nothing, otherwise insert a new Brick object with place=xPlace, price=xPrice,
+> > - void fl() — Do not edit this method. Complete only the insert(...) method above. Output in the file f1.txt must be the following:
+> (F, -6.7)
+> (E, 2,5) (F, -6.7)
+> > - void f2() — Perform a pre-order traversal from the root, but write to f2.txt only the non-leaf nodes. Hint: Copy the function preOrder(...) to function preOrder2(...) and
+> modify it. Output in the file f2.txt must be the following:
+> (G, 7.3) (K, -1,5)
+> (K, -1,5)
+> > - void f3() — Assume the tree contains at least 4 elements. Delete by copying the node p having the 4th smallest type. (In the given data, p is (G,7,3) because the 4th
+> smallest type is 3). Output in the file f3.txt must be the following:
+> (F, 2, -1) (G, 7.3) (H,1Ø.8) (J, 3,9) (K, -1,5)
+> (F, 2, -1) (K, -1,5)
+> > - void f4() — Assume p is the 3rd node having a right child in a pre-order traversal from the root. Rotate p to the left. Output in the file f4.txt must be the following:
+> (F, 2, -1) (K, -1,5)

@@ -1,0 +1,10 @@
+class Node {
+   Boat info;
+   Node left,right;
+   int bal,level;
+   Node(){
+     }
+   Node(Boat x) {
+    info=x;left=right=null;
+     }
+   }

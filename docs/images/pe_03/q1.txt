@@ -1,0 +1,86 @@
+﻿CSD201 PE INSTRUCTIONS
+> Read all the instructions below carefully before you start coding.
+> Students are permitted to use ONLY:
+> > - Materials available on his/her computer (including JDK, NetBeans...).
+> > - For distance learning: Google Meet, Hangout (for Exam Monitoring Purpose).
+> Complete the PE by following the steps below:
+> 1. Create a folder to store the given projects, e.g. CSD_given (1). Download the given materials into (1).
+> 2. How to work on the question: Open NetBeans, open the given project, then edit the source files to match the requirements of the exam.
+> 3. Before submission: Run the function "Clean and Build Project" (Shift+F11), to ensure BUILD SUCCESSFUL (if not, the project will get O mark).
+> 4. Submission: browse and select the project folder then click the Submit button. Do not submit the un-edited given project.
+> 5. Do not use accented Vietnamese when writing comments in programs.
+> 6. Do not add new import statement(s) to given files.
+> 7. Software tools must be used: NetBeans IDE 8.x and Java JDK 1.8. If at least one of the above requirements is not followed, the exam will get ZERO.
+> Questions: (10 marks)
+> The given files already contain statements for implementing a program that manages a Hotel. The main classes are structured as follows:
+> > - Class Room: stores information about a Room object, including:
+> code (001, 002, 003, VIP,
+> o status: is 0 (if the Room is empty), or 1 (if there is/are customer(s) in the Room)
+> o size (must be > O): the maximum number of people renting/using this Room
+> 0 price (must be > O)
+> > - Class Node: consists of info (a Room object) and next (a pointer for linking).
+> > - Class dataList: is a singly linked list that manages regular Nodes with complete information. This class is responsible for managing all Room in the Hotel.
+> > - Class requestQueue: is a queue structure (implemented as a linked list), in which the info component of the Nodes contains only size (the number of people renting
+> the Room) and price (the expected price, i.e. the maximum amount of money the customer(s) can pay). Note: size>O and price>O.
+> > - Class Hotel: is the main class of the program, containing a dataList used to manage the Room objects and a requestQueue corresponding to a queue of orders.
+> Students must carefully read the provided code segments so that they fully understand the relationships between the classes and the functions inside each class. The exact
+> task of the test is to carry out the following requirements:
+> a. fl(): 2.5 marks — Load data
+> To finish the requirement f1 0, students need to fulfill two specific tasks: implement the function addLast() in the dataList class and the function enQueue() (similar to
+> addLast) in the requestQueue class.
+> The expected output used to test your code is as follows:
+> Data List.
+> : (1, lee) (12,5øø) (4,5e) (4,4øø)
+> Request
+> b. f2(): 2.5 marks — Serve the first request in the requestQueue
+> To complete the requirement f2(), students need to perform three specific tasks: (1) implement the deQueue() function of the requestQueue structure, (2) use the result
+> returned by deQueue() to perform the rent() function, then (3) use these two functions to serve the first request in the body of the f2() function.
+> The rent() action is carried out in two steps:
+> > - First, search for the best Room to rent. If found, move on to step 2. The best Room is:
+> o An empty Room
+> o Size the size in the request
+> 0 Price the price in the request
+> o If there are more than one Room satisfying these three conditions, you should choose the Room with lowest price.
+> 0 If there are more than one Room satisfying these four conditions, you should choose the last Room. For example: if Room 003, 005, and VIP satisfy four
+> conditions, the answer is Room VIP.
+> > - If the best Room is found, carry out the renting action: update the status in the dataList from O to 1.
+> The expected output used to test your code is as follows:
+> Data List:
+> Data List.
+> : (12,500) (4,50) (4.4øe)
+> Request
+> Explanation:
+> > - The request (1, 100) is removed from the requestQueue, and then this request is processed.
+> > - The request is for renting a room for one person (size-I), with the available money being 100 (price: 100).
+> > - The system finds two suitable rooms (empty (status=O), priced < = 100, with the lowest price being 70), which are 003 and 005.
+> > - The system then picks room 005 because it appears after room 003 in the dataList. Finally, the status of this room is updated to status-I to indicate that it is now in
+> use.
+> c. f3(): 2.5 marks — Serve all requests in the requestQueue
+> You should apply the pair of operations deQueue() and rent() to all elements in the requestQueue.
+> The expected output used to test your code is as follows:
+> Data List:
+> : (1,1eø) (12,5øø) (4,5e) (4,4øø)
+> Request
+> Data List.
+> > - (VIP,
+> Request
+> : Empty
+> Explanation:
+> > - As in the f2() function, the request (1,100) is served in room 005.
+> > - The request (12,500) finds no suitable Room because the number of people (size: 12) is too large, exceeding the size of all available rooms (VIP has size: IO, but
+> 10<12, so no room with size> -12 exists).
+> > - The request (4,50) also fails to find a room because it offers too little money (price=50), specifically less than the price of the cheapest available rooms (price=70).
+> > - The request (4,400) has multiple suitable rooms. Among them, VIP (price=80) has the lowest price, so VIP is rented.
+> > - As a result, rooms 005 and VIP are rented, and the requestQueue is empty.
+> d. f4(): 2.5 marks — Compute total revenue after serving all requests
+> You should: (1) apply the pair of operations deQueue() and rent() to all elements in the requestQueue, then (2) compute the total revenue (sum of prices of all rented
+> rooms).
+> The expected output used to test your code is as follows:
+> Data List:
+> Request : (1, lee) (12, see) (4,5ø) (4,4øø)
+> Data List: (VIP,
+> Request : Empty
+> Total Revenue: 150
+> Explanation: As in the f3() function, rooms 005 (price: 70) and VIP (price=80) are rented. Total Revenue
+> End -
+> = 70 + 80 = 150

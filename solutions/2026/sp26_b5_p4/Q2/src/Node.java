@@ -1,0 +1,10 @@
+class Node {
+   Tiger info;
+   Node left,right;
+   int bal,level;
+   Node(){
+     }
+   Node(Tiger x) {
+    info=x;left=right=null;
+     }
+   }

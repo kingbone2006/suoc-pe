@@ -1,0 +1,10 @@
+class Node {
+   Camel info;
+   Node left,right;
+   int bal,level;
+   Node(){
+     }
+   Node(Camel x) {
+    info=x;left=right=null;
+     }
+   }

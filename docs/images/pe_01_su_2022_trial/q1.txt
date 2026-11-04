@@ -1,0 +1,16 @@
+Question 1: (4 marks)
+> In this question you need to complete some methods in MyList.java file.
+> The class Car with 2 data members: owner and price is given, and you do not need to edit it. MyList is a linked list of Car objects. The following methods should be
+> completed:
+> > - void addLast(String xOwner, int xprice) - check if xOwner.charAt(0) 'A' or xprice» 100 then do nothing, otherwise append a new car with owner=xOwner,
+> price=xPrice to the end of the list (price can be any value, even negative).
+> > - void fl()
+> — This method tests the addLast method above. You do not need to edit it. The output in the file f1.txt must be the following:
+> (CD) (D, 2) (E,6) (F, 4)
+> > - void f2() — Objects x and y are given. You should write statements so that y becomes the first element of the list. The output in the file f2.txt must be the following:
+> (D,6) (E,8) (F, 2) (1.6)
+> (C,9) (D,6) (E,8) (F, 2) (1.6)
+> > - void f3() — Suppose the list contains at least 3 elements. Delete the second node having price=5. The output in the file f3.txt must be the following:
+> (D,5) (E,3) (F,5) (1,6)
+> (D,5) (E,3) (1,6)
+> > - void f4() — (content not captured in images)

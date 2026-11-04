@@ -1,0 +1,14 @@
+Question 1: (4 marks)
+> In this question you need to complete some methods in MyList.java file.
+> The class Pen with 3 data members: owner, price and color is provided and you do not need to edit it. The MyList class is a linked list of Pen objects. Complete the
+> following methods:
+> > - void addLast(String xOwner, int xprice, int xColor) - if xOwner.charAt(0) == 'A' then do nothing, otherwise add a new node with owner=xOwner, price=xprice,
+> color=xColor to the end of the list. (price and color can get arbitrary, even negative values).
+> > - void fl() — Do not edit this method. Your task is to complete the addLast(...) method above only. The output in the file f1.txt must be the following:
+> (E, 7,9) (F, 4.7)
+> > - void f2() — There are 2 given Pen objects x and y in this function. Assume the list contains at least 2 elements. Write statements to insert x and y to the list so that y
+> will be at position O (head) and x will be at position 1 (The head's position is O). The output in the file f2.txt must be the following:
+> > - void f3() — Assume the list is not empty. Remove the first node having color < 6. The output in the file f3.txt must be the following:
+> > - void f4() — Assume the list contains at least 5 elements. Sort the first 5 elements ascendingly by color. The content of the output file f4.txt must be the following:
+> (C, 7,9) (K
+> (C, 7,9) (E,6.16) (3,324) (K. 2,3)

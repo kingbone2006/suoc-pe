@@ -1,0 +1,16 @@
+Question 1: (5 marks)
+> In this question, you need to complete some methods in the MyList.java file.
+> The class Phone with 3 data members: id, weight and price is given and you do not need to edit it. In this class, id must be unique (there is no duplicated id in the list),
+> weight>O, and price>O. The MyList class is a linked list of Phone objects. The following methods must be completed:
+> > - void addLast(String xld, int xWeight, int xPrice).
+> > - void fl() — Do not edit this method. Your task is to complete only the method above. The expected output in the file f1.txt should be the following:
+> > - void f2() — There is a given Phone object (named v) in this function. Suppose the list contains at least 3 elements. Write statements to insert v into the list so that v will
+> be the 3rd node after insertion. The expected output in the file f2.txt should be the following:
+> (Q, 7,6)
+> > - void f3() — Delete the node holding the heaviest Phone (maximum weight). If there is more than one node satisfying the requirement, delete the first of them. The
+> expected output in the file f3.txt should be the following:
+> (R, 12,7)
+> > - void f4() — How many Phones in the list satisfy price>5? The expected output in the file f4.txt should be as follows:
+> > - void f5() — Delete the first node, then sort the elements descending by weight (assuming that all weights are different). The expected output in the file f5.txt should
+> be the following:
+> (S, 7,5)

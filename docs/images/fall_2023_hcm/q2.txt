@@ -1,0 +1,23 @@
+Question 2: (6 marks)
+> In this question you need to complete some methods in the BSTree.java file.
+> The class User with 3 data members: name, age and id is provided and you do not need to edit it. The BSTree class is a binary search tree of User objects. The variable id is
+> the key of the tree, thus it must be unique. Complete the following methods:
+> > - void insert(String xName, int xAge, int xld) - insert a new User with name=xName, age=xAge, and id=xld into the tree (age>O).
+> (C,4.5) (F. 14.9) (H. 34.11) (D, 25.4) (G, 7,6) (J, 19, 3)
+> (D, 25.4) (G, 7.6)
+> > - void f2() — Perforrn the post-order traversal from the root but write to f2.txt only the nodes with age<25. (Hint: Copy the function postOrder(...) to function
+> postOrder2(...) and modify it.) The output saved to f2.txt must be as follows:
+> (J, 19,3) (F, 14,9)
+> (J, 19, 3) (G, 7.6) (F, 14,9)
+> > - void f3() — Add 3 to the age of all nodes that have only one child (age=age+3). (Hint: such nodes will have either a left child or a right child.) The output saved to
+> f3.txt must be as follows:
+> (E, 10) (F, 14,9) (G, 7,6)
+> (B, 13, 2) (C (F. 14.9) (H. 34,11) (D, 28.4) (3.19, 3)
+> > - void f4() — Calculate the height of the last node in the postOrder traversal from the root. (Hint: Calculate the height of the node (the height of a node is the height of
+> the subtree whose root is that node; assume that if there is only one node then height = 1).) The output saved to f4.txt must be as follows:
+> 5
+> > - void f5() — Set the age of all nodes located in the left branch of the 1st node in the preOrder traversal from the root to zero (age—O). (Hint: Traverse all nodes in the
+> left branch of that node and set the age of each node to O.) The output saved to f5.txt must be as follows:
+> (B.IØ,2) (D, 25.4) (G. 7.6) (A.se,8) (E, 3m 10) (H, 34.11)
+> > - void f6() — Find the node with the biggest id (right most node) in the tree. The output of f6.txt is as follows:
+> (G, 7,6)

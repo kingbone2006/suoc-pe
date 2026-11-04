@@ -1,0 +1,25 @@
+Question 3: (2 marks)
+> Code provided Q3 java project atxjut Graphs
+> Student tasks;
+> open and build the projecL if there is no error then open file Graph.java
+> > - find the following read the description and implement them accordingly
+> I. voidfl()
+> 2. void12()
+> > - Follow the instructions to submit the project Q3
+> Student tasks:
+> open and build the if there is no error then open file
+> Bird 's price as the key attribute When building a BST.
+> > - find the following methods, read the description and implement them accordingly
+> l. void insert (String Owner, int xprice, int xColor)
+> 2. voidf2()
+> 3. void
+> 4. void f4()
+> > - Follow the instructions to submit the project Q2
+> Question 3: (2 marks)
+> Code provided: Q3 java project atxjut Graphs
+> Student tasks
+> open and build the if there is no error then open file Graph-java
+> > - find the following methods, read the description and implement them accordingly
+> I. void fl()
+> 2. voidfi()
+> > - Follow the instructions to submit the project Q3

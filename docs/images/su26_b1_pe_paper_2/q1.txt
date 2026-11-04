@@ -1,0 +1,15 @@
+Question 1: (4 marks)
+> In this question, you need to complete a number of methods in the MyList.java file.
+> The class Carp with 3 data members: pond, size and state is provided and you do not need to edit it. MyList is a linked list of Carp objects. Complete the following
+> methods:
+> > - void addLast(String xPond, int xSize, int xState) - check if xPond.charAt(0) 'A' then do nothing, otherwise add new node with pond=xPond, size=xSize, state=xState
+> to the end of the list. (size and state can get arbitrary, even negative values).
+> > - void fl() — Do not edit this method. Your only task is to complete the addLast(...) method above. The output in the file f1.txt must be the following:
+> > - void f2() — Suppose the list contains at least 5 elements. Three Carp objects x, y, z are given in this function. Write statements to insert x, y and z into the list so that
+> they end up at positions 1, 2 and just before the tail (the head is at position 0). The output in the file f2.txt must be the following:
+> (Y,2,3) (E8,5)
+> > - void f3() — Suppose the list is not empty. Find the (first) node having the maximum state and change its size to 77. The output in the file f3.txt must be the following:
+> (G,8,7) (H,4,9)
+> > - void f4() — Suppose the list contains only one element p with pond = D and one element q with pond = K. Reverse the elements from p to q. The content of the
+> output file f4.txt must be the following:
+> (F,1,2) (E8,7) (M,3A)

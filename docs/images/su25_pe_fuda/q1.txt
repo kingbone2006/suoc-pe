@@ -1,0 +1,57 @@
+﻿PRACTICAL EXAM - CSD201 - SUMMER 2025
+> Thdi gian: 90 phüt
+> båi yéu cau låm viéc vdi tap dd liéu gom cåc md hinh Al (LLM). Mdi md hinh c6 ba thuöc tinh: tén (name), thång phåt hånh (monthPublish) vå näm phåt hånh
+> (yearPublish). DÜ liéu cüa cåc rnö hinh duroc cho nhur bén dudi:
+> Name
+> GPT-4
+> Claude
+> Gemini
+> Llama
+> Mistral
+> BERT
+> T5
+> PaLM
+> Falcon
+> Phi-2
+> monthPublish yearPublish
+> 3
+> 7
+> 12
+> 2
+> 9
+> 10
+> 10
+> 4
+> 5
+> 12
+> 2023
+> 2023
+> 2023
+> 2024
+> 2023
+> 2018
+> 2019
+> 2022
+> 2023
+> 2023
+> Q1. Tao IdP PE_SP25_Q1 java) düng mång dé quån 19 dCr liéu nhu bång trén. Ldp gbm cåc thånh Phin sau:
+> 1. Ldp Model düng dé Idu trÜ thöng tin cüa mét mö hinh: tén mö hinh (name — String), thång phåt hånh (monthPublish — int), näm phåt hånh (yearPublish — int).
+> 2. Cåc phuong thüc:
+> 0 removeFirst: x6a phän tü däu tién trong mång.
+> 0 addLast: thém mö hinh mdi våo cudi mång.
+> 0 quickSort: såp xép mång täng din theo näm phåt hånh (yearPubIish). Néu cüng näm thi såp xép theo thång phåt hånh (monthPubIish).
+> 3. Xåy dung håm main dé kiém tra viéc trién khai.
+> Q2. Xåy dung IdP gam:
+> 1. Ldp Model cé phddng thüc compareTo dé so sånh thdi gian phåt hånh (so sånh theo yearPublish, néu bång thi so sånh theo monthPublish).
+> 2. Ldp AVL_ModelTree (cåi dét bång linked-list):
+> Xåy dVng constructor cüng cåc tham Sö can thiét dé quån 19 AVL tree.
+> 0 insert: thém möt rnö hinh våo AVL tree. Phåi Sü dung phuang thüc compareTo dé so sånh vå gid déc tinh AVL sau khi chén.
+> inOrder. duyét cåy AVL theo thü tv in-order.
+> o delete by name (copy): xoå mét md hinh theo tan (name) bång phuong phåp copy. Sau khi xoå phåi duy tri däc tinh AVL
+> 3. Håm main ding dé kiém tra:
+> o Khdi tao instance cüa AVL_ModelTree vå thém toån bö cåc md hinh våo cay.
+> 0 Duyet in-order vå hién thi danh såch cåc mö hinh.
+> Xoå m6 hinh cé tén "BERT", sau d6 duyét in-order län nüa.
+> Luu quan trpng:
+> > - Sinh vién phåi nöp båi trong hai file vå khång tuån theo yéu cau nåy sé bi tru 1 dlém.
+> > - Trong quå trinh thi, chi durgc Sü dung phän mam Apache NetBeans IDE.

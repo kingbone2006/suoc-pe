@@ -1,0 +1,64 @@
+Ouestion 1:
+> INSTRUCTIONS - PRACTICAL EXAM - csD201
+> Read the instructions below carefully before stan coding.
+> Students are ONLY to use:
+> Software tools must be used: NetBeans IDE 8.1 and Java JDK I X
+> > - His \ her own Stud y like presentation Slides, notes, sample program examples,
+> electronic txyoks stored on his her computer only.
+> For distance learning: Google Meet, Hangout (for Exam Monitoring purpose).
+> Step : run and guild Project" (Shift-FFI l) to dist and file.
+> Step 2: Prepare to submit answer:
+> o For each question (e.g„ question I), please create two sub-folders: run and src.
+> o Copy into run
+> o Compress source code into zip, then copy lip file into sre folder.
+> Step 2: Submit each question:
+> o Choose question number (e.g.. I) in PEA software, and then attach eonesponding
+> solution folder 1). to finish submitting this
+> DO not use accented Vietnamese When writing comments in programs.
+> Solutions will bc marked by Automated Marking Software,
+> > - If at least or the is the get ZERO.
+> (3 marks)
+> Write a pmgram to build a BSI' (Binary Search Tree) by inserting N (I 100) integer values into
+> the BST one by one. Note that the ncx3es have no duplicate values.
+> Your task is showing the BFS (Breadth First Traversal) traversing ofthe BST which node's value must
+> he greater than or equal to V.
+> For example.
+> Create a BST tree by inserting into the tree N integer values as follows: 7, 9, 4, I, 12, 6, IO.
+> DO not accented Vietnamese When writing comments in programs.
+> > - Solutions will bc marked by Automated Marking Software,
+> If at one requirements is exam get ZERO.
+> (3 marks)
+> Write a pmgram to build a BSI' (Binary Search Tree) by inserting N (I 100) integer values into
+> the BST one by one. Note that the ncxjes have no duplicate values.
+> Your task is showing the BFS (Breadth First Traversal) traversing of the BST which node's value must
+> be greater than or equal to V.
+> For example.
+> Create a BST tree by insetting into the tree N integer values as follows: 7, 9, 4, I, 12, 6, IO.
+> The value of V is 7.
+> The BFS traversing ofthe BST tree which node's value are greater than or equal to 7 is: 7, 9, 12,
+> 2 of2
+> paper No: 2
+> Figure 1. nveBs-rrha1crea/edby 7, 9. 4, 1. 12, 6, 10 one byone
+> The input: are stored in the BFS_input.txt text file:
+> The first line contains a positive integer N (I N 100) which is the number of integer values
+> to into the BST_
+> Ille second line containing N integers that will be inserted into the BST One by one, each
+> number separated by at least one space,
+> Figure 1. nveBs-rthatcrea/edbyimerri'W7,9. 4. 1, 12, 6, loonebyo.w
+> The input: are stored in the BFS_input.txt text file
+> The first line contains a positive integer N (I N which is the integer values
+> to into the BST_
+> The second line containing N integers that will be inserted into the BST one by one, each
+> number separated by at least one space,
+> The third line cmtaining positive integer V. Of V tO
+> resubs when Wu-versing lhe Wee.
+> The output: thc results need to be saved to the BFS_output.txt text file;
+> Om line contains thc list of thc BFS traversing of the BST which s
+> value must be greater than or equal to V _ Each number separated by one comma.
+> Sample I
+> 7941
+> Sample I
+> 7, 9, 12,10
+> *ample 2
+> 91, 9B,
+> 7B 21 36 lg 3C 91 "4 5S gg IOC

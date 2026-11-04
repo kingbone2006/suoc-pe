@@ -1,0 +1,81 @@
+﻿CSD201 PE INSTRUCTIONS
+> Please read the instructions below carefully before you start coding.
+> Students may use ONLY:
+> > - Materials available on their own computer (including JDK, NetBeans...).
+> > - For distance learning: Google Meet or Hangout (for exam monitoring purposes).
+> Carry out the steps below to complete the PE:
+> 1. Create a folder to keep the given projects, e.g. CSD_given (1), and download the given materials into (1).
+> 2. Complete all the requirements of the test.
+> 3. Before submission:
+> o Clean and Build the Project (Shift+F11),
+> 0 Then rename the folder dist to run. (If the folder run already exists, delete it before renaming).
+> 4. Submission:
+> o To submit project Q1, first select the Question No: 1
+> 0 Browse and select the project folder (e.g. Q1, or QIA, or Q2, ...)
+> o Then click the Submit button.
+> 5. Do not use accented Vietnamese characters when writing comments in programs.
+> 6. Do not add new import statement(s) to the given files.
+> 7. Software tools to be used: NetBeans IDE 13 and Java JDK 1.8. If at least one of the above requirements is not followed, the exam will get ZERO.
+> Notes:
+> > - The input and expected output below are used only to test your code.
+> > - The input and expected output in the real testcases (for marking) are different from the examples below.
+> > - Do not hardcode the given expected results.
+> Questions: (10 marks)
+> The provided files already contain the statements needed to implement a program that manages a Computer Store. The main classes are structured as follows:
+> > - Class Order: holds the information of an Order object, including orderlD, customerName, and totalPrice.
+> > - Class TreeNode: consists of an Order object plus left and right pointers for the tree structure.
+> > - Class OrderBST: a Binary Search Tree structure whose nodes also contain complete Order data. This tree is used to store, search and sort data (alphabetically) in
+> ascending order (inOrder traversal).
+> > - Class StoreAction: stores information representing an administrative action performed in the store, including actionlD and actionType.
+> > - Class ActionNode: contains a StoreAction object and a next pointer for the linked-list data structure.
+> > - Class ActionLogStack: a stack structure (implemented as a linked list) whose nodes contain complete Order data. This stack manages all items in LIFO (Last In — First
+> Out) rule.
+> > - Class ComputerStore is the main class of the program, containing:
+> 0 An ActionLogStack: manages the working history of the store, such as buy, ship, cancel, update price, etc.
+> 0 An OrderBST: manages the order information, such as customer and price.
+> fl(): 3 marks — Load data
+> To complete fl(), students need to implement two specific tasks:
+> 1. Implement the method push() in ActionLogStack
+> 2. Implement the method insert() in OrderBST
+> > - push() follows the principle of Stacks.
+> > - insert() follows these rules:
+> o Orders are inserted based on their orderlD (alphabetical comparison)
+> o If an order is added with an existing ID, overwrite it with the new order.
+> The expected output used to test your code is as follows:
+> Action Log Stack: (Action7,Modified) (Actions, Placed) (Actions, Returned) (Action4,Cance1ed) (Action3.Shipped) (Action2,Updated) (Actionl,P1aced)
+> Order BST:
+> f2(): 2 marks — Search Order by ID
+> > - Return the Order object if found.
+> > - Return null if not found.
+> Expected output:
+> Case of found ID (Searching for Order ID: Order4):
+> Action Log Stack: (Action7,Modified) (Action6,P1aced) (Action5.Returned) (Action4,Cance1ed) (Action3.Shipped) (Action2,Updated) (Actionl,P1aced)
+> Order BST: (Orderl,D.3Øee.Ø) (Order2,B.2ØØ.Ø) (Order4,C.5ØØ.e) (Order6.A,1ØØØ.Ø)
+> Found Order: (Order4,C, 5ØØ.Ø)
+> Case of ID not found (Searching for Order ID: Order 7):
+> Action Log Stack: (Action7,Modified) (Actions, Placed) (Actions, Returned) (Action4,Cance1ed) (Action3.Shipped) (Action2.Updated) (Actionl,P1aced)
+> Order BST:
+> Order not found in BST
+> f3(): 2 marks — Find Minimum Order ID
+> To complete f3(), students need to implement the findMin() method in OrderBST. This method will print out the Order with the lowest "alphabetical" orderlD, which is the
+> first order in the inOrder traversal.
+> Expected output:
+> Action Log Stack: (Action7,Modified) (Actions, Placed) (Action5,Returned) (Action4,Cance1ed) (Action3,Shipped) (Action2.Updated) (Actionl.P1aced)
+> Order BST:
+> Lowest Alphabetical Order ID in BST: (Ordere, F,25ØØ.e)
+> f4(): 3 marks — Pop Action and Remove Order
+> To complete f4(), students need to be able to perform the following methods:
+> > - The pop() method in ActionLogStack is used to pop the top action in ActionLogStack, then use the actionlD from the popped StoreAction to identify the order to
+> remove (via the actionlD field).
+> > - The remove() method in OrderBST will remove the Order in orderTree with the given orderlD.
+> Example:
+> > - Popped from Action Log Stack: Action7 (Modified)
+> > - Attempting to remove Order ID from BST: Order3
+> > - Attempting to remove Action ID from Stack: Action4
+> Expected output:
+> Action Log
+> Stack: (Action7,Modified) (Actions, Placed) (Action5,Returned) (Action4,Cance1ed) (Action3,Shipped) (Action2,Updated) (Actionl,placed)
+> Order BST: (Orderl,D.3ØØØ.Ø) (Order2,B.2ØØ.Ø) (Order4,C.5ØØ.e) (Order6.A,1ØØØ.Ø)
+> Action Log
+> Stack: (Action6,P1aced) (Actions, Returned) (Action3,Shipped) (Action2, updated) (Actionl, Placed)
+> order BST:

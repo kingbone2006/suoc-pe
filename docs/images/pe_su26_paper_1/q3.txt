@@ -1,0 +1,19 @@
+Question 3 — f3() (2.5 marks): Insert readers into the BST.
+> > - File: ReaderBST.java
+> > - Method to Complete: insert(Reader r)
+> > - Task: Add a new Reader into the BST ordered by id.
+> o Place the reader in the correct position following BST rules.
+> o If the id already exists, the reader is ignored (no exception, no duplicate).
+> Expected example output:
+> Current Readers (Alphabetically Ordered by ID) :
+> {RØ1.AnHRØ2,
+> Question 4 — f4() (2.5 marks): Count readers with ID greater than a given value.
+> > - File: ReaderBST.java
+> > - Method to Complete: countGreater(String id)
+> > - Task: Count every reader in the BST whose id is strictly greater than the given value.
+> 0 If no reader satisfies the condition, return O.
+> o The tree structure must remain unchanged.
+> Expected example output:
+> Current Readers :
+> Counting readers with ID > RO:
+> Result: 2

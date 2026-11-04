@@ -1,0 +1,17 @@
+Question 1: (4 marks)
+> In this question, you must complete some methods in the MyList.java file.
+> The class Camel with 3 data members: desert, step and type is provided and you do not need to edit it. The MyList class is a linked list of Camel objects. Complete the
+> following methods:
+> > - void addLast(String xDesert, int xStep, int xType) - if xDesert.charAt(0) 'B' then do nothing, otherwise add a new node with desert=xDesert, step=xStep,
+> type=xType to the end of the list. (step and type can be arbitrary, even negative values).
+> > - void fl() — Do not edit this method. Your task is only to complete the addLast(...) method above. The output in the file f1.txt must be the following:
+> (E, 7,9) (G, -3, 2)
+> > - void f2() — There are 3 given Camel objects x, y, z in this function. Write statements to insert x, y and z into the list so that x, y, z are at positions 2, 4 and 5 (the head's
+> position is O). The output in the file f2.txt must be the following:
+> (C.9,8) (Y, 2.3) (Z, 3,4) (F.5,4) (1,4.9) (3.3, 7)
+> > - void f3() — Suppose p is the first node with maximum step in the list. Find the second node q having q.info.step<p.info.step. Swap the contents of p and q. The output
+> in the file f3.txt must be the following:
+> (C, 7,6) (F, 7,9)
+> (C, 7,6) (F, 7,9)
+> > - void f4() — Find the element p having desert = F. Reverse all elements after p. The content of the output file f4.txt must be the following:
+> (L (M, 3,4)

@@ -1,0 +1,26 @@
+Ouestion 1: (4 marks)
+> In this question you should complete some methods in MyList.java file.
+> The class Boat with 3 data members: sea, sail and paddle is given and you do not need to edit it. The
+> MyList class is a linked list of Boat objects. The following methods should be completed:
+> > - void addLast(String xSea, int Sail, int xPaddle) - check if xSea.charAt(0) 'A' then do nothing,
+> Otherwise add new node with sea—Sea, sail=xSail, paddle=xPaddle to the end of the list. (sail and
+> paddle Can get arbitrary, even negative values).
+> > - void not edit this method. Your task is to complete the addLast(...) method above only.
+> Output in the file f1.txt must be the following:
+> > - are 3 given Boat objects x, y, z inthisfunction.Supposethe list contains at least
+> 3 elements. Write statements to insert x, y and z to the list so that x, y, z will be at positions 1, 3
+> and 4 (The head's position is O). Output in the file f2.txt must be the following:
+> (Eß,5) (FS,4)
+> 1
+> (Z,3A) (Eß,5)
+> > - void BO— Move the second node having maximum paddle to the tail (thus if there is only one
+> maximum paddle then do nothing). Output in the file f3.txt must be the following:
+> x
+> Close
+> Question paper (build 07.05.20.19)
+> > - void BO— Move the second node having maximum paddle to the tail (thus if there is only one
+> maximum paddle then do nothing). Output in the file f3.txt must be the following:
+> > - void f4() — Suppose the list contains at least 7 elements. Sort the 5 elements from position 2 to
+> position 6 ascendingly by paddle (The heds position is O). The content of the output file ß,txt
+> must be the following:
+> (D,11, 12) (J,€8) (1,799) (Nt3,4)

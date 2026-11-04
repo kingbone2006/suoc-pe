@@ -1,0 +1,23 @@
+Question 2 (4 marks)
+> In this question you need to complete some methods in the BSTree.java file.
+> Ine carp Class Witn s aata memoers: pona, sue ana state IS alreaay given, so you ao not neea toe I I
+> variable size is the key of the tree, thus it must be unique. Complete the following methods:
+> ne ± Iree Class IS a Dinary searcn tree OT carp ODJe s
+> > - void insert(String xpond, int xSize, int xState) - check if xPond.charAt(0) 'B' then do nothing, otherwise insert new Carp object with pond—xPond,
+> size=xSize, state=xState to the tree (size and state can get arbitrary, even negative values).
+> > - void fl() - Do not edit this method. Your task is to complete the insert(...) method above only. The file f1.txt must contain the following output:
+> (A, 7,9) (E, 2,5) (F, -6.7)
+> (E,2.5) (A,7.9) (D,8.6)
+> - Perform post-order traversal from the root but display to file f2.txt nodes with size < 7 only. Hint: Copy the function postOrder(...) to function
+> postOrder2(...) and modify it. The file f2.txt must contain the following output:
+> void f2()
+> (K, -1,5)
+> (K, -1,5)
+> > - void f
+> - Assume p is the 3rd node in the pre-order traversal of the tree from the root, and f is the father of p. Delete by copying 2 nodes: firstly p, then f. The file
+> f3.txt must contain the following output:
+> (F, 2, -1) (K, -1,5)
+> (K, -1,5)
+> > - void f4() - Perform the pre-order traversal of the tree from the root, and find the 3rd node p having non-empty left son. Rotate p to right. The file f4.txt must
+> contain the following output:
+> (J, 3.9) (K, -1,5)

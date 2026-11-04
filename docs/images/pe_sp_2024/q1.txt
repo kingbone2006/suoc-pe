@@ -1,0 +1,16 @@
+Question 1: (5 marks)
+> In this question, complete some methods in the MyList.java file.
+> The Laptop class with 3 data members: producer, weight and price is provided and you do not need to edit it. The MyList class is a linked list of Laptop objects. The
+> methods below need to be completed:
+> > - void addLast(String xProducer, int xWeight, int xPrice) - Note: xWeight and xPrice must be bigger than O.
+> > - void fl() — Do not edit this method. Your only task is to complete the method above. The output written to the file f1.txt must be as follows:
+> > - void f2() — This function has 2 given Laptop objects v, w. Suppose the list contains at least 3 elements. Write statements to insert v and w into the list so that w
+> becomes the 2nd node and v becomes the 3rd node. The output in the file f2.txt must be as follows:
+> (Q, 7,6)
+> (Q, 7,6)
+> > - void f3() — Remove the node holding the heaviest Laptop (maximum weight). If more than one node satisfies the requirement, delete the last of them. The output in
+> the file f3.txt must be as follows:
+> (D, 2,6)
+> > - void f4() — How many Laptops are there in the list? The output in the f4.txt file should be as follows:
+> > - void f5() — Remove the first node, then sort the elements ascending by weight. The content of the output file f5.txt must be as follows:
+> (content cut in image, see below for Q2)

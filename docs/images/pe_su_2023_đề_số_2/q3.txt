@@ -1,0 +1,54 @@
+Ouestion 3:
+> (3 marks)
+> Sample I
+> Sample Outpul 2
+> 78, 21, 91, 36, 9B, 30, 74, 100, 55
+> Write a program to build a binary search tree by inserting N (I Ng '(NJ) integer values into the BST
+> one by Note that the nodes have no duplicate values.
+> Your task ig Showing the list Of full-child nodes or the BST by using Note that
+> full-child node is a ncxie that has left-child and right-child.
+> For example,
+> Create a BST tree by inserting into the tree N integer values as follows: 7, 9, 4, I 12.6, IO.
+> The BST has 2 full-child nodes including 7 and 4.
+> Ouestion 3:
+> (3 marks)
+> Write a program to build a binary search tree by inserting N (I N integer values into the BST
+> one by Note that the nodes have no duplicate values.
+> Your task ig Showing the list Of full-child nodes or the BST by using Note that
+> full-child node is a ncxie that has left-child and right-child.
+> For example,
+> Createa BST tree by inserting into thc tree N integer values as follows: 7, 9, 4, I 12, 6, IO.
+> The BST has 2 full-child nodes including 7 and 4.
+> paper No: 2
+> Figure 4. BST has 2fuII
+> > - chiId nodes including 7 and 4
+> The input: are stored in the fullChiIdNode_inpuLtrt text file:
+> Thc first line contains a positive integer N (I N f I which is the numtxr of integer values
+> to inserl into the BST.
+> > - Thc second linc containing N integers that will be inserted into thc BST one by each
+> number separated by at least one space.
+> The output: the results need to be saved to the fullChiIdNode_ou1puLtr1 text tile:
+> > - Only one line contains the list of full-child nodes ofthe BST by using preorder traversing, each
+> Separated by
+> If the BST doesn't have any full-child node, the result file will contain the message WI-here is a
+> linked
+> Sample Inpul I
+> Figure 4. The BST has 2fuII
+> > - ehi/d nodes including 7 and 4
+> The input: are stored in the fullChiIdNode_inpuLtx-t text file:
+> The first line contains a positive integer N (I f N S I which is the number of integer values
+> to insen into the BST.
+> > - The second linc containing N integers that will bc inserted into thc BST one by one, each
+> number separated by ut one space.
+> The output: the results need to be saved to the fullCiiIdNode_outpuLtrt text file:
+> > - Only one line contains the list of full-child nodes ofthe BST by using pre-ordertraversing, each
+> Separated by
+> Ifthe BST doesn't have any full<hild node, the result file will contain the message ' envere is a
+> linked list".
+> Sample Inpul I
+> 194 1 12 6 10
+> Sample Input 2
+> 10 11 12 15 18 12 11
+> Sample Outpul I
+> Sample Ourpu/ 2
+> There is a linked list

@@ -1,0 +1,49 @@
+﻿PRACTICAL EXAM - CSD201 - SPRING 2024
+> Duration: 85 minutes
+> This exam focuses on managing a task dataset inside an application framework. The dataset contains tasks, each identified by an ID, a description, and a numeric priority,
+> as follows:
+> Task ID
+> 2
+> 3
+> 4
+> 5
+> 6
+> 7
+> 8
+> 9
+> 10
+> Description
+> Security patch for vulnerability
+> Add login feature
+> Update documentation
+> Fix email notification bug
+> Refactor user management module
+> Implement data caching
+> Optimize database queries
+> Write unit tests for new features
+> Upgrade third-party libraries
+> Review and merge pull requests
+> Priority
+> 100
+> 80
+> 40
+> 90
+> 70
+> 85
+> 75
+> 60
+> 50
+> 55
+> 1. Implement a Task class holding ID, description, and priority attributes. Include a compareTo method to compare tasks based on their priority. [1 marks]
+> 2. Write a main function that initialises an array Task[] tasks to store this dataset of tasks, then demonstrate it by printing out the tasks. [I marks]
+> Discuss the advantages and disadvantages of using an array for task management, focusing on access, insertion, deletion, and search operations, by adding
+> comments in the code. [1 marks]
+> 3. Still in the main function, implement the MergeSort algorithm to sort this array of Task objects using the compareTo method for comparison (based on task priority)
+> [2.5 marks]
+> Why is MergeSort stable and why is Quicksort not stable? [0.5 marks]
+> 4. Implement a max heap data structure class MaxHeap for efficient task prioritization, with a void insert(Task element) method that inserts tasks while maintaining the
+> heap's property and a Task remove() method that removes and returns the maximum element from the heap. [2.5 marks]
+> Which are the main advantages of the heap data structure? [0.5 marks]
+> 5. Now in the main function, initialize a MaxHeap object, insert tasks into the heap one by one, then remove and display each of them using the heap's remove function.
+> [l marks]
+> Note: Submit 1 java file only!

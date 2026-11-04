@@ -1,0 +1,73 @@
+﻿CSD201 PE INSTRUCTIONS
+> Read the following instructions carefully before you begin the exam.
+> Allowed Materials and Tools:
+> > - Materials available on the computer (including JDK, NetBeans)
+> > - For distance learning: Google Meet, Hangout (used for exam supervision)
+> > - Software tools in use: NetBeans IDE 8.x and Java JDK 1.8
+> Steps to Complete the Exam:
+> 1. Create a folder to store the project files, e.g., CSD_given (1). Download the provided materials into (1).
+> 2. Finish all the requirements of the exam.
+> 3. Before submitting:
+> 0 Clean and Build Project (Shift+F11)
+> o Then rename the dist folder to run. (If a run folder already exists, delete it before renaming)
+> 4. Submit your work:
+> 0 To submit project Q1, first select Question number: 1
+> o Browse and select the project folder (e.g., Q1, or QIA or Q2, .
+> 0 Then click the Submit button
+> 5. Additional requirements:
+> o Do not use Vietnamese with diacritics when writing comments in the program
+> 0 Do not add any new import statements to the provided files
+> Failure to comply with any of the above requirements will result in a ZERO grade.
+> Important Notes:
+> > - The sample input and output examples are used only to check your code
+> > - The expected input and output in actual test cases (for grading) will be different from the examples below
+> > - Do not hard code with the given expected results
+> Student and Scholarship Management System
+> The supplied files contain code for a program that manages students and scholarships. The main classes are structured as follows:
+> > - Student Class: stores information about a student, including id, name, gpa, major, and balance (amount in the account)
+> > - TreeNode Class: holds a Student object and left/right pointers for the BST structure
+> > - ListNode Class: holds a Student object and a next pointer for linking
+> > - StudentBST Class: a binary search tree that manages all students in the system
+> > - ScholarshipList Class: a linked list that manages scholarship recipients
+> > - StudentManager Class: the main class of the program, containing StudentBST to store data about existing students in the system and ScholarshipList corresponding
+> to the list of scholarship recipients
+> Note: In this problem, when a student belongs to the scholarship list, the scholarship amount is stored in the balance field of the Student object.
+> Students should read the provided code carefully to fully understand the relationship between classes and the functions in each class. The specific tasks of the exam are to
+> implement the following requirements:
+> fl(): (2.5 points)
+> To finish the f1 requirement, students need to perform two specific tasks:
+> > - Implement the insert() function in the StudentBST structure - insert a new student into the BST
+> > - Implement the addLast() function in the ScholarshipList structure - add a student to the end of the scholarship list
+> Expected output to check your code:
+> Student BST (Inorder Traversal):
+> Engineering,18Ø.Ø)
+> Scholarship List:
+> (seel, John,
+> Note: The scholarship list is initialized with sample students from the data.txt file.
+> To complete the f2 requirement, students need to:
+> > - Implement the findHighestGPA() function in the StudentBST structure to find the student with the highest GPA
+> > - Print this student's information
+> Expected output to check your code:
+> Student BST (Inorder Traversal):
+> IT, 120.e)
+> Scholarship List:
+> Student with highest GPA:
+> f3(): (2.5 points)
+> To complete the f3 requirement, students need to:
+> > - Count and display the number of students whose GPA is greater than or equal to 3.5
+> > - Implement the countByGPA() method in the StudentBST structure
+> The expected output consists of only a single number (the count of students with GPA > = 3.5), for example:
+> 4
+> f4(): (2.5 points)
+> To finish the f4 requirement, students need to:
+> > - Implement the removeByld() function in the ScholarshipList structure to remove a student from the scholarship list
+> > - Implement the updateStudentBaIance() function in the StudentBST structure to update the amount in the student's account
+> > - Process scholarships: remove students from the scholarship list and add the scholarship amount to the student's account in the BST
+> Expected output to check your code:
+> Student BST (Inorder Traversal):
+> Engineering, 180.0)
+> Scholarship List:
+> Student BST (Inorder Traversal):
+> IT,12ø.e) Engineering, 630.0)
+> Scholarship List:
+> Empty

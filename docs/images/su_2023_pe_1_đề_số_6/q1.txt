@@ -1,0 +1,36 @@
+Question 1, and
+> > - BSTree.iava for Question 2, and
+> > - Graph.java for Question 3.
+> Before submission:
+> > - "Clean and Build Project" then
+> > - rename the folder 'dise to 'run' (if the folder 'run' exists, delete it before
+> renaming).
+> Submission. to subrnit the project Q1 at first you must select Question NO = I , browse and
+> select the project folder (e.b, l, Q1 or QIX. etc.) then click the Submit button. Do the same
+> for other questions. Do not submit the un-edited given project.
+> Do not use accented Vietnamese when wnting comments in programs.
+> DO not add new import statement(s) to given files.
+> Troubleshooting: if the given project runs with error, you need to run
+> > - Clean and Build
+> Project" (Shift+F11). If still error, rename or copy the project to another folder, e.B, from Q1
+> to QlXorQlY,etc
+> IO. If at least one of the alx»ve requirements is not followd the exam will get ZERO.
+> (4 marks)
+> Class description: Each Apartment Object has three attributes: district (String), price (int) and area
+> (int). This class is defined in the project Q1, and will be wed for Question I. You should NOT
+> care about the actual meaning of an Apartment in the real-world, just focus on your code
+> Code provided Q1 java project at»ut Linked Lists
+> Student tasks:
+> Quegiggg: (4 marks)
+> Class description: Each Apartment Object has three attributes: district (String), price (int) and area
+> (int). This class is defined in the project Q1. and will be used for Question I. You should NOT
+> care about the actual meaning of an Apartment in the real-world, just focus on your code
+> Code provided Q1 java project Linked Lists
+> Student tasks:
+> open and build the project, if there is error then open file MyLisLjava
+> > - find the following methmis, read the description and implunent them accordingly
+> I _ void addLast(String *District, int XPrice, int XArea)
+> 2. void
+> 3. void BO
+> 4. void f4()
+> > - Follow the instructions to sublnit the project Q1

@@ -1,0 +1,10 @@
+class Node {
+   Bird info;
+   Node left,right;
+   int bal,level;
+   Node(){
+     }  
+   Node(Bird x) {
+    info=x;left=right=null;
+     }  
+   }

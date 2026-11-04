@@ -1,0 +1,88 @@
+﻿CSD201 PE INSTRUCTIONS
+> Read the instructions below carefully before you start coding.
+> Follow the steps below to complete the PE:
+> 1. Create a folder to hold the given projects, e.g. CSD_given (1), then download the given materials into (1).
+> 2. Complete all the requirements of the test.
+> 3. Before submitting:
+> 0 Clean and Build the Project (Shift+F11),
+> o Then rename the dist folder to run. (If a run folder already exists, delete it before renaming).
+> 4. Submitting your work:
+> 0 To submit project Q1, first you must select Question No: 1,
+> o Browse and select the project folder (e.g. Q1, or QIA or Q,
+> 0 Then click the Submit button.
+> 5. Do not use accented Vietnamese when writing comments in your programs.
+> 6. Your task is to complete the method bodies only. Do not change any method signature or add new import statements.
+> 7. Software tools must be used: NetBeans IDE 13 and Java JDK 8. If at least one of the above requirements is not followed, the exam will get ZERO.
+> Notes:
+> > - The input and expected output below are provided only to test your codes.
+> > - The input and expected output in the real testcases (for marking) are different from the examples below.
+> > - Do not hardcode the given expected results.
+> Troubleshooting: If the given project (e.g. Q1) runs with an error, run "Clean and Build Project" (Shift+F11). If the error persists, try renaming or copying the project to
+> another one, e.g. from Q1 to QIX or Q1 Y.
+> Questions: (10 marks)
+> Scenario: You will complete a Java program that manages a music library. The system uses a Binary Search Tree (BST) to store all available songs, sorted alphabetically by
+> songld. It also uses a Circularly Linked List (CLL) to manage a user's current playlist, which can be played in a loop.
+> Class Structure:
+> > - Song: Contains information about a web page: songlD (String), artist (String) and title (String)
+> > - PlaylistCLL: A Circularly Linked List structure. This list manages a user's current playlist, which can be played in a loop.
+> > - SongBST: A Binary Search Tree structure. This tree acts as a library, which is used to store all the available songs, sorted alphabetically by songlD.
+> Students are required to carefully read the provided code segments to fully understand the relationships between the classes and the functions within each class.
+> I. fl() — 2.5 marks: Count Songs in Playlist
+> > - File: PlaylistCLL.java
+> > - Methods to Complete: countSongs()
+> > - Task: Implement the countSongs() method to traverse the circularly linked list and return the total number of songs currently in the playlist. If the playlist is empty, it
+> should return O.
+> Expected example output:
+> Testing f1: Counting songs in a playlist.
+> Current Playlist
+> (SC, Yesterday. The_Beat1es)
+> (SOI, Hey_Jude, The_Beat1es)
+> Total songs in playlist: 2
+> 2. f2() — 2.5 marks: Add a Song to the Playlist
+> > - File: PlaylistCLL.java
+> > - Method to Complete: addToPlaylist(Song song)
+> > - Task: Implement the logic to add a new Song to the end of the circularly linked playlist. Your implementation must correctly handle adding a song to an initially
+> empty playlist.
+> Expected example output:
+> Initial Playlist State - -
+> Empty
+> Testing f2: Adding a new song to the playlist.
+> Final Playlist State
+> Current Playlist
+> (S99, New_Song, Test_Artist)
+> 3. f3() — 2.5 marks: Insert a Song into the Library
+> > - File: SongBST.java
+> > - Method to Complete: insert(Song song)
+> > - Task: Implement the logic to insert a new Song object into the Binary Search Tree. The tree must be ordered alphabetically based on the songld.
+> Expected example output:
+> Testing f3: Inserting songs into the library.
+> Final State of Library -
+> Song Library (In-order)
+> (SOI,
+> Hey_Jude, The_Beat1es)
+> (SB2,
+> Eleanor_Rigby, The_Beat1es)
+> (S03,
+> Yesterday, The_Beat1es )
+> (S04,
+> Come_Together, The_Beat1es)
+> (ses,
+> The_Beat1es )
+> — 2.5 marks: Count Songs within an ID Range
+> > - File: SongBST.java
+> > - Method to Complete: countlnRange(String minld, String maxld)
+> > - Task: Implement a method that efficiently counts the number of songs in the library whose songld falls within a given alphabetical range (inclusive). For example,
+> count all songs between "S02" and "S04". To do this efficiently, you must use the BST property to avoid searching branches that are entirely outside the desired range.
+> This method should return an int.
+> Expected example output:
+> Initial Library State - -
+> - Song Library (In-order) -
+> (SOI, Hey_Jude, The_Beat1es)
+> (SQ. Eleanor_Rigby, The_Beat1es)
+> (SO, Yesterday, The_Beat1es)
+> (sø4, Come_Together, The_Beat1es)
+> (S05,
+> The_Beat1es )
+> Testing f4: Counting songs between S02 and Sø4...
+> songs in the specified range.
+> Result: Found 3

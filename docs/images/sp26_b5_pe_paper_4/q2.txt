@@ -1,0 +1,21 @@
+Question 2: (4 marks)
+> In this question you need to complete some methods in the BSTree.java file.
+> The class Tiger with 3 data members: forest, rate and sound is given and you do not need to edit it. The BSTree class is a binary search tree of Tiger objects. The variable
+> sound is the key of the tree, thus it must be unique. The following methods need to be completed:
+> > - void insert(String xForest, int xRate, int xSound) - check if '(Forest. charAt(0)
+> 'A' then do nothing, othemise insert new Tiger object with forest—xForest,
+> rate=xRate, sound=xSound to the tree (rate and sound can get arbitrary, even negative values).
+> > - void fl() — Do not edit this method. Your task is to complete the insert(...) method above only. The output in the file f1.txt must be the following:
+> (E, 2,5)
+> > - void f2() — Perform a pre-order traversal from the root but display to file f2.txt only the nodes with rate<6. Hint: Copy the function preorder(.
+> .. ) and modify it. The output in the file f2.txt must be the following:
+> preorder2( .
+> (E, 2,8)
+> ) to function
+> > - void f3() — Suppose p is the 4-th node when performing the pre-order traversal of the tree. Delete the node p by copying. The output in the file f3.txt must be the
+> following:
+> (D, 2.1) (F, 1,3) (H, 3,4)
+> > - void f4() — Suppose p is the 4-th node when performing the pre-order traversal of the tree. Check whether p has a right son; if so, rotate it to the left about its' right
+> son. The output in the file f4.txt must be the following:
+> (F, 1,3)
+> (H, 3,4)

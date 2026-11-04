@@ -1,0 +1,10 @@
+class Node {
+   Brick info;
+   Node left,right;
+   int bal,level;
+   Node(){
+     }
+   Node(Brick x) {
+    info=x;left=right=null;
+     }
+   }

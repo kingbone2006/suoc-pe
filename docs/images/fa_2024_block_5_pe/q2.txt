@@ -1,0 +1,19 @@
+Question 2: (4 marks)
+> In this question you need to complete some methods in BSTree.java file.
+> The class Beaver with 3 data members: place, depth and type is provided and you do not need to edit it. The BSTree class is a binary search tree of Beaver objects. The
+> variable depth is the key of the tree, thus it must be unique. Complete the following methods:
+> > - void insert(String xPlace, int xDepth, int xType) - if xPlace.charAt(0) 'B' then do nothing, otherwise insert a new Beaver object with place=xPlace, depth=xDepth,
+> type=xType to the tree (depth and type can get arbitrary, even negative values).
+> > - void fl() — Do not edit this method. Your task is to complete the insert(...) method above only. The output in the file f1.txt must be the following:
+> (A, 7,9) (E, 2,5)
+> (E, 2,5) (A, 7,9)
+> > - void f2() — Perform post-order traversal from the root but display to file f2.txt nodes with type < 7 only. Hint: Copy the function to function
+> postOrder2(...) and modify it. The output in the file f2.txt must be the following:
+> (E, 2,8)
+> > - void f3() — Perform breadth-first traversal and find the second node p having left son. Delete the node having largest depth in the subtree with root p (thus if p is the
+> leaf-node then p is deleted). The output in the file f3.txt must be the following:
+> (F, 1, 3) (H, 3,4)
+> (CS, 2) (D, 2.1) (F, 1,3) (H,3.4)
+> > - void f4() — Perform breadth-first traversal and find the second node p having left son, then rotate p to right. The output in the file f4.txt must be the following:
+> (CS, 2) (D, 2.1) (F, 1,3) (G,4.6) (H, 3,4)
+> (D, 2,1)

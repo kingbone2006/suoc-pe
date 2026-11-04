@@ -1,0 +1,18 @@
+Question 1: (4 marks)
+> In this question, you need to complete several methods in the MyList.java file.
+> The Brick class with 3 data members: place, price and type is provided and you do not need to edit it. The MyList class is a linked list of Brick objects. Complete the
+> following methods:
+> > - void addLast(String xPlace, int xprice, int xType) - if xPlace.charAt(0) 'A' then do nothing, otherwise add a new node with place=xPlace, price=xprice, type=xType
+> to the end of the list. (price and type can be arbitrary, even negative values).
+> > - void fl() — Do not edit this method. Complete only the addLast(...) method above. Output in the file f1.txt must be the following:
+> (E, 7,9) (G, -3.2)
+> > - void f2() — This function provides 3 given Brick objects x, y, z Assume the list contains at least 3 elements. Write statements to insert x, y and z into the list so that they
+> are placed at positions 1, 2 and 5 (The head's position is O). Output in the file f2.txt must be the following:
+> > - void f3() — Assume the list contains only one element with place E and one element with place G. Swap the positions of these two elements. Output in the file
+> f3.txt must be the following. (Hint: You only need to swap the data between 2 nodes, not necessarily swap 2 nodes.)
+> (C, 7.6) (F. 7,9) (G,8.7) (1.8,3)
+> (C, 7,6) (F, 7,9)
+> > - void f4() — Assume the list has only one element p with place = l. Sort all elements before p in ascending order of type. The content of the output file f4.txt must be
+> the following:
+> (L (M, 3.4)
+> (F, 1,2) (D, 11,12) (K (L (M, 3,4)
